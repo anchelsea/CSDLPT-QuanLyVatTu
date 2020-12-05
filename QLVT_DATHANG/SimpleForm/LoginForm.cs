@@ -31,7 +31,7 @@ namespace QLVT_DATHANG
         {
             if (tb_dang_nhap.Text.Trim() == "" || tb_mat_khau.Text.Trim() == "")
             {
-                MessageBox.Show("Login name và mật khẩu không được bỏ trống");
+                MessageBox.Show("Tên đăng nhập và mật khẩu không được bỏ trống");
                 return;
             }
             Program.mlogin = tb_dang_nhap.Text.Trim();

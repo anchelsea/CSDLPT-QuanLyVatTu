@@ -35,14 +35,14 @@
             System.Windows.Forms.Label tENKHOLabel;
             System.Windows.Forms.Label dIACHILabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KhoForm));
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode9 = new DevExpress.XtraGrid.GridLevelNode();
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode10 = new DevExpress.XtraGrid.GridLevelNode();
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode11 = new DevExpress.XtraGrid.GridLevelNode();
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode12 = new DevExpress.XtraGrid.GridLevelNode();
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode13 = new DevExpress.XtraGrid.GridLevelNode();
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode14 = new DevExpress.XtraGrid.GridLevelNode();
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode15 = new DevExpress.XtraGrid.GridLevelNode();
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode16 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode2 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode3 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode4 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode5 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode6 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode7 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode8 = new DevExpress.XtraGrid.GridLevelNode();
             this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.bar3 = new DevExpress.XtraBars.Bar();
@@ -317,7 +317,7 @@
             // 
             // barButtonItem6
             // 
-            this.barButtonItem6.Caption = "Undo";
+            this.barButtonItem6.Caption = "Phục hồi";
             this.barButtonItem6.Id = 4;
             this.barButtonItem6.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.undo;
             this.barButtonItem6.Name = "barButtonItem6";
@@ -407,27 +407,27 @@
             // khoGridControl
             // 
             this.khoGridControl.DataSource = this.khoBindingSource;
-            gridLevelNode10.RelationName = "FK_CTDDH_DatHang";
-            gridLevelNode12.RelationName = "FK_CTPN_PhieuNhap";
-            gridLevelNode11.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode12});
-            gridLevelNode11.RelationName = "FK_PhieuNhap_DatHang";
-            gridLevelNode9.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode10,
-            gridLevelNode11});
-            gridLevelNode9.RelationName = "FK_DatHang_Kho";
-            gridLevelNode14.RelationName = "FK_CTPN_PhieuNhap";
-            gridLevelNode13.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode14});
-            gridLevelNode13.RelationName = "FK_PhieuNhap_Kho";
-            gridLevelNode16.RelationName = "FK_CTPX_PX";
-            gridLevelNode15.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode16});
-            gridLevelNode15.RelationName = "FK_PhieuXuat_Kho";
+            gridLevelNode2.RelationName = "FK_CTDDH_DatHang";
+            gridLevelNode4.RelationName = "FK_CTPN_PhieuNhap";
+            gridLevelNode3.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
+            gridLevelNode4});
+            gridLevelNode3.RelationName = "FK_PhieuNhap_DatHang";
+            gridLevelNode1.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
+            gridLevelNode2,
+            gridLevelNode3});
+            gridLevelNode1.RelationName = "FK_DatHang_Kho";
+            gridLevelNode6.RelationName = "FK_CTPN_PhieuNhap";
+            gridLevelNode5.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
+            gridLevelNode6});
+            gridLevelNode5.RelationName = "FK_PhieuNhap_Kho";
+            gridLevelNode8.RelationName = "FK_CTPX_PX";
+            gridLevelNode7.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
+            gridLevelNode8});
+            gridLevelNode7.RelationName = "FK_PhieuXuat_Kho";
             this.khoGridControl.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode9,
-            gridLevelNode13,
-            gridLevelNode15});
+            gridLevelNode1,
+            gridLevelNode5,
+            gridLevelNode7});
             this.khoGridControl.Location = new System.Drawing.Point(12, 99);
             this.khoGridControl.MainView = this.gridView1;
             this.khoGridControl.MenuManager = this.barManager1;
@@ -637,6 +637,7 @@
             this.Controls.Add(this.barDockControl4);
             this.Controls.Add(this.barDockControl2);
             this.Controls.Add(this.barDockControl1);
+            this.IconOptions.Image = ((System.Drawing.Image)(resources.GetObject("KhoForm.IconOptions.Image")));
             this.Name = "KhoForm";
             this.Text = "Kho";
             this.Load += new System.EventHandler(this.KhoForm_Load);

@@ -171,7 +171,7 @@
             this.barButtonItem8.Id = 15;
             this.barButtonItem8.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem8.ImageOptions.Image")));
             this.barButtonItem8.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem8.ImageOptions.LargeImage")));
-            this.barButtonItem8.LargeWidth = 100;
+            this.barButtonItem8.LargeWidth = 90;
             this.barButtonItem8.Name = "barButtonItem8";
             // 
             // barButtonItem9

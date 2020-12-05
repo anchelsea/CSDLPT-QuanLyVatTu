@@ -111,7 +111,7 @@ namespace QLVT_DATHANG
             Application.SetCompatibleTextRenderingDefault(false);
          
             //Application.Run(new LoginForm());
-            Application.Run(new KhoForm());
+            Application.Run(new LoginForm());
             // Application.Run(new frmDN()); 
 
 
