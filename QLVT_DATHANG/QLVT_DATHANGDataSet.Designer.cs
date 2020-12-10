@@ -5797,8 +5797,8 @@ namespace QLVT_DATHANG.QLVT_DATHANGDataSetTableAdapters {
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[ChiNhanh] ([MACN], [ChiNhanh], [DIACHI], [SoDT], [rowguid]) VA" +
-                "LUES (@MACN, @ChiNhanh, @DIACHI, @SoDT, @rowguid);\r\nSELECT MACN, ChiNhanh, DIACH" +
-                "I, SoDT, rowguid FROM ChiNhanh WHERE (MACN = @MACN)";
+                "LUES (@MACN, @ChiNhanh, @DIACHI, @SoDT, @rowguid);\nSELECT MACN, ChiNhanh, DIACHI" +
+                ", SoDT, rowguid FROM ChiNhanh WHERE (MACN = @MACN)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MACN", global::System.Data.SqlDbType.NChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MACN", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ChiNhanh", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ChiNhanh", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -6205,8 +6205,8 @@ SELECT MACN, ChiNhanh, DIACHI, SoDT, rowguid FROM ChiNhanh WHERE (MACN = @MACN)"
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[CTDDH] ([MasoDDH], [MAVT], [SOLUONG], [DONGIA], [rowguid]) VAL" +
-                "UES (@MasoDDH, @MAVT, @SOLUONG, @DONGIA, @rowguid);\r\nSELECT MasoDDH, MAVT, SOLUO" +
-                "NG, DONGIA, rowguid FROM CTDDH WHERE (MAVT = @MAVT) AND (MasoDDH = @MasoDDH)";
+                "UES (@MasoDDH, @MAVT, @SOLUONG, @DONGIA, @rowguid);\nSELECT MasoDDH, MAVT, SOLUON" +
+                "G, DONGIA, rowguid FROM CTDDH WHERE (MAVT = @MAVT) AND (MasoDDH = @MasoDDH)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MasoDDH", global::System.Data.SqlDbType.NChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MasoDDH", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MAVT", global::System.Data.SqlDbType.NChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MAVT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -6623,8 +6623,8 @@ SELECT MasoDDH, MAVT, SOLUONG, DONGIA, rowguid FROM CTDDH WHERE (MAVT = @MAVT) A
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[CTPN] ([MAPN], [MAVT], [SOLUONG], [DONGIA], [rowguid]) VALUES " +
-                "(@MAPN, @MAVT, @SOLUONG, @DONGIA, @rowguid);\r\nSELECT MAPN, MAVT, SOLUONG, DONGIA" +
-                ", rowguid FROM CTPN WHERE (MAPN = @MAPN) AND (MAVT = @MAVT)";
+                "(@MAPN, @MAVT, @SOLUONG, @DONGIA, @rowguid);\nSELECT MAPN, MAVT, SOLUONG, DONGIA," +
+                " rowguid FROM CTPN WHERE (MAPN = @MAPN) AND (MAVT = @MAVT)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MAPN", global::System.Data.SqlDbType.NChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MAPN", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MAVT", global::System.Data.SqlDbType.NChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MAVT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -6991,8 +6991,8 @@ SELECT MAPN, MAVT, SOLUONG, DONGIA, rowguid FROM CTPN WHERE (MAPN = @MAPN) AND (
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[CTPX] ([MAPX], [MAVT], [SOLUONG], [DONGIA], [rowguid]) VALUES " +
-                "(@MAPX, @MAVT, @SOLUONG, @DONGIA, @rowguid);\r\nSELECT MAPX, MAVT, SOLUONG, DONGIA" +
-                ", rowguid FROM CTPX WHERE (MAPX = @MAPX) AND (MAVT = @MAVT)";
+                "(@MAPX, @MAVT, @SOLUONG, @DONGIA, @rowguid);\nSELECT MAPX, MAVT, SOLUONG, DONGIA," +
+                " rowguid FROM CTPX WHERE (MAPX = @MAPX) AND (MAVT = @MAVT)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MAPX", global::System.Data.SqlDbType.NChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MAPX", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MAVT", global::System.Data.SqlDbType.NChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MAVT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -7361,8 +7361,8 @@ SELECT MAPX, MAVT, SOLUONG, DONGIA, rowguid FROM CTPX WHERE (MAPX = @MAPX) AND (
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[DatHang] ([MasoDDH], [NGAY], [NhaCC], [MANV], [MAKHO], [rowgui" +
-                "d]) VALUES (@MasoDDH, @NGAY, @NhaCC, @MANV, @MAKHO, @rowguid);\r\nSELECT MasoDDH, " +
-                "NGAY, NhaCC, MANV, MAKHO, rowguid FROM DatHang WHERE (MasoDDH = @MasoDDH)";
+                "d]) VALUES (@MasoDDH, @NGAY, @NhaCC, @MANV, @MAKHO, @rowguid);\nSELECT MasoDDH, N" +
+                "GAY, NhaCC, MANV, MAKHO, rowguid FROM DatHang WHERE (MasoDDH = @MasoDDH)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MasoDDH", global::System.Data.SqlDbType.NChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MasoDDH", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@NGAY", global::System.Data.SqlDbType.Date, 0, global::System.Data.ParameterDirection.Input, 0, 0, "NGAY", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -7756,8 +7756,8 @@ SELECT MasoDDH, NGAY, NhaCC, MANV, MAKHO, rowguid FROM DatHang WHERE (MasoDDH = 
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[Kho] ([MAKHO], [TENKHO], [DIACHI], [MACN], [rowguid]) VALUES (" +
-                "@MAKHO, @TENKHO, @DIACHI, @MACN, @rowguid);\r\nSELECT MAKHO, TENKHO, DIACHI, MACN," +
-                " rowguid FROM Kho WHERE (MAKHO = @MAKHO)";
+                "@MAKHO, @TENKHO, @DIACHI, @MACN, @rowguid);\nSELECT MAKHO, TENKHO, DIACHI, MACN, " +
+                "rowguid FROM Kho WHERE (MAKHO = @MAKHO)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MAKHO", global::System.Data.SqlDbType.NChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MAKHO", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TENKHO", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TENKHO", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -8727,8 +8727,8 @@ SELECT MANV, HO, TEN, DIACHI, NGAYSINH, LUONG, MACN, TrangThaiXoa FROM NhanVien 
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[PhieuNhap] ([MAPN], [NGAY], [MasoDDH], [MANV], [MAKHO], [rowgu" +
-                "id]) VALUES (@MAPN, @NGAY, @MasoDDH, @MANV, @MAKHO, @rowguid);\r\nSELECT MAPN, NGA" +
-                "Y, MasoDDH, MANV, MAKHO, rowguid FROM PhieuNhap WHERE (MAPN = @MAPN)";
+                "id]) VALUES (@MAPN, @NGAY, @MasoDDH, @MANV, @MAKHO, @rowguid);\nSELECT MAPN, NGAY" +
+                ", MasoDDH, MANV, MAKHO, rowguid FROM PhieuNhap WHERE (MAPN = @MAPN)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MAPN", global::System.Data.SqlDbType.NChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MAPN", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@NGAY", global::System.Data.SqlDbType.Date, 0, global::System.Data.ParameterDirection.Input, 0, 0, "NGAY", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -9124,8 +9124,8 @@ SELECT MAPN, NGAY, MasoDDH, MANV, MAKHO, rowguid FROM PhieuNhap WHERE (MAPN = @M
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[PhieuXuat] ([MAPX], [NGAY], [HOTENKH], [MANV], [MAKHO], [rowgu" +
-                "id]) VALUES (@MAPX, @NGAY, @HOTENKH, @MANV, @MAKHO, @rowguid);\r\nSELECT MAPX, NGA" +
-                "Y, HOTENKH, MANV, MAKHO, rowguid FROM PhieuXuat WHERE (MAPX = @MAPX)";
+                "id]) VALUES (@MAPX, @NGAY, @HOTENKH, @MANV, @MAKHO, @rowguid);\nSELECT MAPX, NGAY" +
+                ", HOTENKH, MANV, MAKHO, rowguid FROM PhieuXuat WHERE (MAPX = @MAPX)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MAPX", global::System.Data.SqlDbType.NChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MAPX", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@NGAY", global::System.Data.SqlDbType.Date, 0, global::System.Data.ParameterDirection.Input, 0, 0, "NGAY", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -9519,8 +9519,8 @@ SELECT MAPX, NGAY, HOTENKH, MANV, MAKHO, rowguid FROM PhieuXuat WHERE (MAPX = @M
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[Vattu] ([MAVT], [TENVT], [DVT], [SOLUONGTON], [rowguid]) VALUE" +
-                "S (@MAVT, @TENVT, @DVT, @SOLUONGTON, @rowguid);\r\nSELECT MAVT, TENVT, DVT, SOLUON" +
-                "GTON, rowguid FROM Vattu WHERE (MAVT = @MAVT)";
+                "S (@MAVT, @TENVT, @DVT, @SOLUONGTON, @rowguid);\nSELECT MAVT, TENVT, DVT, SOLUONG" +
+                "TON, rowguid FROM Vattu WHERE (MAVT = @MAVT)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MAVT", global::System.Data.SqlDbType.NChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MAVT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TENVT", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TENVT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));

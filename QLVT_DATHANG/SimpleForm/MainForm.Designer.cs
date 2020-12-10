@@ -121,6 +121,7 @@
             this.bar_btn_nhanvien.ItemAppearance.Pressed.Options.UseFont = true;
             this.bar_btn_nhanvien.LargeWidth = 100;
             this.bar_btn_nhanvien.Name = "bar_btn_nhanvien";
+            this.bar_btn_nhanvien.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.bar_btn_nhanvien_ItemClick);
             // 
             // barButtonItem4
             // 

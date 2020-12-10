@@ -46,7 +46,7 @@
             DevExpress.XtraGrid.GridLevelNode gridLevelNode6 = new DevExpress.XtraGrid.GridLevelNode();
             DevExpress.XtraGrid.GridLevelNode gridLevelNode7 = new DevExpress.XtraGrid.GridLevelNode();
             DevExpress.XtraGrid.GridLevelNode gridLevelNode8 = new DevExpress.XtraGrid.GridLevelNode();
-            this.gb_tt_nhanvien = new System.Windows.Forms.GroupBox();
+            this.gb_thongtinNV = new System.Windows.Forms.GroupBox();
             this.trangThaiXoaCheckBox = new System.Windows.Forms.CheckBox();
             this.nhanVienBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.qLVT_DATHANGDataSet = new QLVT_DATHANG.QLVT_DATHANGDataSet();
@@ -96,17 +96,16 @@
             this.barManager3 = new DevExpress.XtraBars.BarManager(this.components);
             this.bar8 = new DevExpress.XtraBars.Bar();
             this.btnThem = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem10 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem12 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem13 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem14 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
+            this.btnXoa = new DevExpress.XtraBars.BarButtonItem();
+            this.btnLuu = new DevExpress.XtraBars.BarButtonItem();
+            this.btnRefresh = new DevExpress.XtraBars.BarButtonItem();
+            this.btnUndo = new DevExpress.XtraBars.BarButtonItem();
+            this.btnChuyenCN = new DevExpress.XtraBars.BarButtonItem();
+            this.btnDDH = new DevExpress.XtraBars.BarButtonItem();
             this.barSubItem1 = new DevExpress.XtraBars.BarSubItem();
             this.barButtonItem19 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem20 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem15 = new DevExpress.XtraBars.BarButtonItem();
+            this.btnExit = new DevExpress.XtraBars.BarButtonItem();
             this.bar9 = new DevExpress.XtraBars.Bar();
             this.barDockControl5 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl6 = new DevExpress.XtraBars.BarDockControl();
@@ -132,7 +131,7 @@
             mACNLabel = new System.Windows.Forms.Label();
             mANVLabel = new System.Windows.Forms.Label();
             trangThaiXoaLabel1 = new System.Windows.Forms.Label();
-            this.gb_tt_nhanvien.SuspendLayout();
+            this.gb_thongtinNV.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nhanVienBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qLVT_DATHANGDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mANVNumericUpDown)).BeginInit();
@@ -237,35 +236,35 @@
             trangThaiXoaLabel1.TabIndex = 25;
             trangThaiXoaLabel1.Text = "Trạng thái xóa:";
             // 
-            // gb_tt_nhanvien
+            // gb_thongtinNV
             // 
-            this.gb_tt_nhanvien.Controls.Add(trangThaiXoaLabel1);
-            this.gb_tt_nhanvien.Controls.Add(this.trangThaiXoaCheckBox);
-            this.gb_tt_nhanvien.Controls.Add(mANVLabel);
-            this.gb_tt_nhanvien.Controls.Add(this.mANVNumericUpDown);
-            this.gb_tt_nhanvien.Controls.Add(mACNLabel);
-            this.gb_tt_nhanvien.Controls.Add(this.mACNTextEdit);
-            this.gb_tt_nhanvien.Controls.Add(lUONGLabel);
-            this.gb_tt_nhanvien.Controls.Add(this.lUONGSpinEdit);
-            this.gb_tt_nhanvien.Controls.Add(dIACHILabel);
-            this.gb_tt_nhanvien.Controls.Add(this.dIACHITextEdit);
-            this.gb_tt_nhanvien.Controls.Add(tENLabel);
-            this.gb_tt_nhanvien.Controls.Add(this.tENTextEdit);
-            this.gb_tt_nhanvien.Controls.Add(hOLabel);
-            this.gb_tt_nhanvien.Controls.Add(this.hOTextEdit);
-            this.gb_tt_nhanvien.Controls.Add(nGAYSINHLabel);
-            this.gb_tt_nhanvien.Controls.Add(this.nGAYSINHDateEdit);
-            this.gb_tt_nhanvien.Controls.Add(this.pictureBox10);
-            this.gb_tt_nhanvien.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gb_tt_nhanvien.Location = new System.Drawing.Point(16, 364);
-            this.gb_tt_nhanvien.Margin = new System.Windows.Forms.Padding(4);
-            this.gb_tt_nhanvien.Name = "gb_tt_nhanvien";
-            this.gb_tt_nhanvien.Padding = new System.Windows.Forms.Padding(4);
-            this.gb_tt_nhanvien.Size = new System.Drawing.Size(1477, 199);
-            this.gb_tt_nhanvien.TabIndex = 6;
-            this.gb_tt_nhanvien.TabStop = false;
-            this.gb_tt_nhanvien.Text = "Thông tin Nhân Viên";
-            this.gb_tt_nhanvien.Enter += new System.EventHandler(this.gb_tt_nhanvien_Enter);
+            this.gb_thongtinNV.Controls.Add(trangThaiXoaLabel1);
+            this.gb_thongtinNV.Controls.Add(this.trangThaiXoaCheckBox);
+            this.gb_thongtinNV.Controls.Add(mANVLabel);
+            this.gb_thongtinNV.Controls.Add(this.mANVNumericUpDown);
+            this.gb_thongtinNV.Controls.Add(mACNLabel);
+            this.gb_thongtinNV.Controls.Add(this.mACNTextEdit);
+            this.gb_thongtinNV.Controls.Add(lUONGLabel);
+            this.gb_thongtinNV.Controls.Add(this.lUONGSpinEdit);
+            this.gb_thongtinNV.Controls.Add(dIACHILabel);
+            this.gb_thongtinNV.Controls.Add(this.dIACHITextEdit);
+            this.gb_thongtinNV.Controls.Add(tENLabel);
+            this.gb_thongtinNV.Controls.Add(this.tENTextEdit);
+            this.gb_thongtinNV.Controls.Add(hOLabel);
+            this.gb_thongtinNV.Controls.Add(this.hOTextEdit);
+            this.gb_thongtinNV.Controls.Add(nGAYSINHLabel);
+            this.gb_thongtinNV.Controls.Add(this.nGAYSINHDateEdit);
+            this.gb_thongtinNV.Controls.Add(this.pictureBox10);
+            this.gb_thongtinNV.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gb_thongtinNV.Location = new System.Drawing.Point(16, 364);
+            this.gb_thongtinNV.Margin = new System.Windows.Forms.Padding(4);
+            this.gb_thongtinNV.Name = "gb_thongtinNV";
+            this.gb_thongtinNV.Padding = new System.Windows.Forms.Padding(4);
+            this.gb_thongtinNV.Size = new System.Drawing.Size(1477, 199);
+            this.gb_thongtinNV.TabIndex = 6;
+            this.gb_thongtinNV.TabStop = false;
+            this.gb_thongtinNV.Text = " ";
+            this.gb_thongtinNV.Enter += new System.EventHandler(this.gb_tt_nhanvien_Enter);
             // 
             // trangThaiXoaCheckBox
             // 
@@ -675,16 +674,15 @@
             this.barManager3.Form = this;
             this.barManager3.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
             this.btnThem,
-            this.barButtonItem9,
-            this.barButtonItem11,
-            this.barButtonItem12,
-            this.barButtonItem13,
-            this.barButtonItem14,
-            this.barButtonItem15,
-            this.barButtonItem10,
+            this.btnXoa,
+            this.btnLuu,
+            this.btnRefresh,
+            this.btnUndo,
+            this.btnChuyenCN,
+            this.btnExit,
             this.barButtonItem8,
             this.barButtonItem16,
-            this.barButtonItem17,
+            this.btnDDH,
             this.barButtonItem19,
             this.barButtonItem20,
             this.barSubItem1});
@@ -700,15 +698,14 @@
             this.bar8.DockStyle = DevExpress.XtraBars.BarDockStyle.Top;
             this.bar8.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.btnThem, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem9),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem10),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem11),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem12),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem13),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem14),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem17),
+            new DevExpress.XtraBars.LinkPersistInfo(this.btnXoa),
+            new DevExpress.XtraBars.LinkPersistInfo(this.btnLuu),
+            new DevExpress.XtraBars.LinkPersistInfo(this.btnRefresh),
+            new DevExpress.XtraBars.LinkPersistInfo(this.btnUndo),
+            new DevExpress.XtraBars.LinkPersistInfo(this.btnChuyenCN),
+            new DevExpress.XtraBars.LinkPersistInfo(this.btnDDH),
             new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem15)});
+            new DevExpress.XtraBars.LinkPersistInfo(this.btnExit)});
             this.bar8.OptionsBar.MultiLine = true;
             this.bar8.OptionsBar.UseWholeRow = true;
             this.bar8.Text = "Main menu";
@@ -722,64 +719,56 @@
             this.btnThem.ItemAppearance.Normal.Options.UseFont = true;
             this.btnThem.Name = "btnThem";
             this.btnThem.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
-            this.btnThem.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem8_ItemClick);
+            this.btnThem.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnThem_ItemClick);
             // 
-            // barButtonItem9
+            // btnXoa
             // 
-            this.barButtonItem9.Caption = "Xóa";
-            this.barButtonItem9.Id = 2;
-            this.barButtonItem9.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.remove;
-            this.barButtonItem9.Name = "barButtonItem9";
-            this.barButtonItem9.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.btnXoa.Caption = "Xóa";
+            this.btnXoa.Id = 2;
+            this.btnXoa.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.remove;
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
-            // barButtonItem10
+            // btnLuu
             // 
-            this.barButtonItem10.Caption = "Sửa";
-            this.barButtonItem10.Id = 9;
-            this.barButtonItem10.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem10.ImageOptions.Image")));
-            this.barButtonItem10.Name = "barButtonItem10";
-            this.barButtonItem10.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
-            this.barButtonItem10.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem10_ItemClick);
+            this.btnLuu.Caption = " Lưu";
+            this.btnLuu.Id = 4;
+            this.btnLuu.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.diskette;
+            this.btnLuu.Name = "btnLuu";
+            this.btnLuu.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.btnLuu.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnLuu_ItemClick);
             // 
-            // barButtonItem11
+            // btnRefresh
             // 
-            this.barButtonItem11.Caption = " Lưu";
-            this.barButtonItem11.Id = 4;
-            this.barButtonItem11.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.diskette;
-            this.barButtonItem11.Name = "barButtonItem11";
-            this.barButtonItem11.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.btnRefresh.Caption = "Làm mới";
+            this.btnRefresh.Id = 5;
+            this.btnRefresh.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.refresh;
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
-            // barButtonItem12
+            // btnUndo
             // 
-            this.barButtonItem12.Caption = "Làm mới";
-            this.barButtonItem12.Id = 5;
-            this.barButtonItem12.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.refresh;
-            this.barButtonItem12.Name = "barButtonItem12";
-            this.barButtonItem12.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.btnUndo.Caption = "Phục hồi";
+            this.btnUndo.Id = 6;
+            this.btnUndo.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.undo1;
+            this.btnUndo.Name = "btnUndo";
+            this.btnUndo.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
-            // barButtonItem13
+            // btnChuyenCN
             // 
-            this.barButtonItem13.Caption = "Phục hồi";
-            this.barButtonItem13.Id = 6;
-            this.barButtonItem13.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.undo1;
-            this.barButtonItem13.Name = "barButtonItem13";
-            this.barButtonItem13.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.btnChuyenCN.Caption = "Chuyển CN";
+            this.btnChuyenCN.Id = 7;
+            this.btnChuyenCN.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.employee1;
+            this.btnChuyenCN.Name = "btnChuyenCN";
+            this.btnChuyenCN.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
-            // barButtonItem14
+            // btnDDH
             // 
-            this.barButtonItem14.Caption = "Chuyển CN";
-            this.barButtonItem14.Id = 7;
-            this.barButtonItem14.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.employee1;
-            this.barButtonItem14.Name = "barButtonItem14";
-            this.barButtonItem14.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
-            // 
-            // barButtonItem17
-            // 
-            this.barButtonItem17.Caption = "Đơn đặt hàng";
-            this.barButtonItem17.Id = 12;
-            this.barButtonItem17.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem17.ImageOptions.Image")));
-            this.barButtonItem17.Name = "barButtonItem17";
-            this.barButtonItem17.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.btnDDH.Caption = "Đơn đặt hàng";
+            this.btnDDH.Id = 12;
+            this.btnDDH.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem17.ImageOptions.Image")));
+            this.btnDDH.Name = "btnDDH";
+            this.btnDDH.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
             // barSubItem1
             // 
@@ -808,13 +797,13 @@
             this.barButtonItem20.Name = "barButtonItem20";
             this.barButtonItem20.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem20_ItemClick);
             // 
-            // barButtonItem15
+            // btnExit
             // 
-            this.barButtonItem15.Caption = "Thoát";
-            this.barButtonItem15.Id = 8;
-            this.barButtonItem15.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.next;
-            this.barButtonItem15.Name = "barButtonItem15";
-            this.barButtonItem15.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.btnExit.Caption = "Thoát";
+            this.btnExit.Id = 8;
+            this.btnExit.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.next;
+            this.btnExit.Name = "btnExit";
+            this.btnExit.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
             // bar9
             // 
@@ -1014,7 +1003,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1500, 813);
-            this.Controls.Add(this.gb_tt_nhanvien);
+            this.Controls.Add(this.gb_thongtinNV);
             this.Controls.Add(this.pn_chinhanh);
             this.Controls.Add(this.gcNhanVien);
             this.Controls.Add(this.barDockControlLeft);
@@ -1034,8 +1023,8 @@
             this.Name = "NhanVienForm";
             this.Text = "NhanVienForm";
             this.Load += new System.EventHandler(this.NhanVienForm_Load);
-            this.gb_tt_nhanvien.ResumeLayout(false);
-            this.gb_tt_nhanvien.PerformLayout();
+            this.gb_thongtinNV.ResumeLayout(false);
+            this.gb_thongtinNV.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nhanVienBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qLVT_DATHANGDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mANVNumericUpDown)).EndInit();
@@ -1066,7 +1055,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.GroupBox gb_tt_nhanvien;
+        private System.Windows.Forms.GroupBox gb_thongtinNV;
         private System.Windows.Forms.Panel pn_chinhanh;
         private QLVT_DATHANGDataSet qLVT_DATHANGDataSet;
         private System.Windows.Forms.BindingSource nhanVienBindingSource;
@@ -1118,13 +1107,12 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem6;
         private DevExpress.XtraBars.BarButtonItem barButtonItem7;
         private DevExpress.XtraBars.Bar bar5;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem9;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem11;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem12;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem13;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem14;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem15;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem10;
+        private DevExpress.XtraBars.BarButtonItem btnXoa;
+        private DevExpress.XtraBars.BarButtonItem btnLuu;
+        private DevExpress.XtraBars.BarButtonItem btnRefresh;
+        private DevExpress.XtraBars.BarButtonItem btnUndo;
+        private DevExpress.XtraBars.BarButtonItem btnChuyenCN;
+        private DevExpress.XtraBars.BarButtonItem btnExit;
         private DevExpress.XtraGrid.GridControl gcNhanVien;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn colMANV;
@@ -1138,7 +1126,7 @@
         private System.Windows.Forms.ComboBox cbChiNhanh;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.BindingSource chiNhanhBindingSource1;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem17;
+        private DevExpress.XtraBars.BarButtonItem btnDDH;
         private DevExpress.XtraBars.BarButtonItem barButtonItem8;
         private DevExpress.XtraBars.BarButtonItem barButtonItem16;
         private DevExpress.XtraBars.BarSubItem barSubItem1;

@@ -22,5 +22,10 @@ namespace QLVT_DATHANG
         {
 
         }
+
+        private void bar_btn_nhanvien_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
+        }
     }
 }

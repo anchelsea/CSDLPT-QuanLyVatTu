@@ -33,6 +33,11 @@ namespace QLVT_DATHANG
         public static String mHoten = "";
         public static int mChinhanh = 0;
 
+        public static bool flagCloseFormNV;
+        public static bool flagCloseFormVT;
+        public static bool flagCloseFormKho;
+        public static bool flagCloseFormTaoTaiKhoan;
+
         public static BindingSource bds_dspm = new BindingSource();  // giữ bdsPM khi đăng nhập
 
 
