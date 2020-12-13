@@ -249,6 +249,13 @@
   <ItemGroup>
     <Content Include="Properties\account.png" />
     <Content Include="Properties\lock.png" />
+    <None Include="Resources\pallet.png" />
+    <None Include="Resources\packages %282%29.png" />
+    <None Include="Resources\stock.png" />
+    <None Include="Resources\warehouse %283%29.png" />
+    <None Include="Resources\packages %281%29.png" />
+    <None Include="Resources\notification.png" />
+    <None Include="Resources\bell.png" />
     <None Include="Resources\note.png" />
     <None Include="Resources\file %281%29.png" />
     <None Include="Resources\file.png" />

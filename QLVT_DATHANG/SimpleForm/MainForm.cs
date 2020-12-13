@@ -18,14 +18,31 @@ namespace QLVT_DATHANG
             InitializeComponent();
         }
 
+        private Form CheckExists(Type ftype)
+        {
+            foreach (Form f in this.MdiChildren)
+                if (f.GetType() == ftype)
+                    return f;
+            return null;
+        }
+
         private void barButtonItem4_ItemClick(object sender, ItemClickEventArgs e)
         {
 
         }
 
-        private void bar_btn_nhanvien_ItemClick(object sender, ItemClickEventArgs e)
-        {
+ 
 
+        private void barbtnNhanVien_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            Form form = this.CheckExists(typeof(NhanVienForm));
+            if (form != null) form.Activate();
+            else
+            {
+                Program.nhanVienForm = new NhanVienForm();
+                //Program.nhanVienForm.MdiParent = this;
+                Program.nhanVienForm.Show();
+            }
         }
     }
 }

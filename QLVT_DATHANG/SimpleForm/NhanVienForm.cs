@@ -112,6 +112,11 @@ namespace QLVT_DATHANG
             return true;
         }
 
+        private string getDataRow(BindingSource bindingSource, string column)
+        {
+            return ((DataRowView)bindingSource[bindingSource.Position])[column].ToString().Trim();
+        }
+
         //Button
         private void btnThem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
@@ -155,12 +160,15 @@ namespace QLVT_DATHANG
             {
                 sqlConnection.Open();
                 SqlCommand sqlCommand1 = new SqlCommand(query, sqlConnection);
-                sqlCommand1.CommandType = CommandType.Text;
+               // sqlCommand1.CommandType = CommandType.Text;
                 sqlCommand1.Parameters.AddWithValue("@p1", mANVNumericUpDown.Value);
                 sqlCommand1.Parameters.AddWithValue("@p2", "MANV");
                 try
                 {
+                    Console.WriteLine("1111");
                     dataReader = sqlCommand1.ExecuteReader();
+                    Console.WriteLine("2222");
+
                 }
                 catch (Exception ex)
                 {
@@ -169,7 +177,7 @@ namespace QLVT_DATHANG
                     return;
                 }
 
-
+                
 
                 dataReader.Read();
                 int result = int.Parse(dataReader.GetValue(0).ToString());
@@ -216,6 +224,115 @@ namespace QLVT_DATHANG
                     }
                 }
             }
+        }
+
+        private void btnXoa_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            int positionNV = nhanVienBindingSource.Find("MANV", mANVNumericUpDown.Value);
+            int trangthaixoaNV = int.Parse(((DataRowView)nhanVienBindingSource[positionNV])["TrangThaiXoa"].ToString());
+            if (trangthaixoaNV == 1)
+            {
+                MessageBox.Show("Nhân Viên này đã bị xóa hoặc chuyển chi nhánh. Vui lòng chọn nhân viên khác!\n", "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            if (mANVNumericUpDown.Value == Program.manv)
+            {
+                MessageBox.Show("Tài khoản Nhân Viên đang được đăng nhập không thể xóa. Vui lòng chọn nhân viên khác!\n", "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            Int32 manv = 0;
+            DialogResult dr1 = MessageBox.Show("Bạn có thực sự muốn xóa nhân viên này?", "Xác nhận",
+                                                     MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+
+
+                if (dr1 == DialogResult.OK)
+            {
+                manv = int.Parse(getDataRow(nhanVienBindingSource, "MANV"));
+                //Kiểm tra MANV có tồn tại trong các Phiếu
+                string query = "DECLARE	@result int " +
+                      "EXEC @result = SP_CheckID @p1, @p2 " +
+                      "SELECT 'result' = @result";
+
+
+                SqlDataReader dataReader = null;
+
+                using (SqlConnection sqlConnection = new SqlConnection(Program.connstr))
+                {
+                    sqlConnection.Open();
+                    SqlCommand sqlCommand1 = new SqlCommand(query, sqlConnection);
+                    sqlCommand1.CommandType = CommandType.Text;
+
+
+      
+                    sqlCommand1.Parameters.AddWithValue("@p1", manv);
+                    sqlCommand1.Parameters.AddWithValue("@p2", "MANV_EXIST");
+                    
+                   
+
+                    try
+                    {
+                        dataReader = sqlCommand1.ExecuteReader();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Lỗi khi thực thi Database!\n" + ex.Message, "Notification",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+                    dataReader.Read();
+                    int result = int.Parse(dataReader.GetValue(0).ToString());
+                    dataReader.Close();
+                    if (result == 1)
+                    {
+                        DialogResult ketqua = MessageBox.Show("Nhân Viên này đã lập các loại Phiếu. Bạn có chắc muốn xóa?", "Xác nhận",
+                        MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                        if (ketqua == DialogResult.Cancel) return;
+                    }
+
+                    //Update trạng thái và xóa login, user(nếu có)
+                    query = "DECLARE @result int " +
+                          "EXEC @result = SP_XoaNV @p1 " +
+                          "SELECT 'result' = @result";
+                    //sqlConnection.Open();
+                    SqlCommand sqlCommand2 = new SqlCommand(query, sqlConnection);
+                    sqlCommand1.CommandType = CommandType.Text;
+                    sqlCommand2.Parameters.AddWithValue("@p1", manv);
+                    dataReader = null;
+                    try
+                    {
+                        dataReader = sqlCommand2.ExecuteReader();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Lỗi khi thực thi Database!\n" + ex.Message, "Notification",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        this.nhanVienTableAdapter.Fill(this.qLVT_DATHANGDataSet.NhanVien);
+                        nhanVienBindingSource.Position = nhanVienBindingSource.Find("MANV", manv);
+                        return;
+                    }
+                    dataReader.Read();
+                    result = int.Parse(dataReader.GetValue(0).ToString());
+                    dataReader.Close();
+                    if (result == 1)
+                    {
+                        MessageBox.Show("Xóa Login không thành công. Vui lòng liên hệ Quản trị viên!", "Notification",
+                             MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+                    else if (result == 2)
+                    {
+                        MessageBox.Show("Xóa User không thành công. Vui lòng liên hệ Quản trị viên!", "Notification",
+                             MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+                }
+            }
+            if (nhanVienBindingSource.Count == 0) btnXoa.Enabled = false;
+            this.nhanVienTableAdapter.Fill(this.qLVT_DATHANGDataSet.NhanVien);
+            nhanVienBindingSource.Position = nhanVienBindingSource.Find("MANV", manv);
         }
     }
 }

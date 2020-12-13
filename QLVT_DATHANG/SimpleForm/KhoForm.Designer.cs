@@ -262,7 +262,6 @@
             this.bar5.DockStyle = DevExpress.XtraBars.BarDockStyle.Top;
             this.bar5.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem2),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem3),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem4),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem5),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem7),
@@ -277,6 +276,8 @@
             this.barButtonItem2.Caption = "Thêm";
             this.barButtonItem2.Id = 7;
             this.barButtonItem2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem2.ImageOptions.Image")));
+            this.barButtonItem2.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem2.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem2.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barButtonItem2.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem2.Name = "barButtonItem2";
@@ -293,9 +294,13 @@
             // 
             // barButtonItem4
             // 
-            this.barButtonItem4.Caption = "Sửa";
+            this.barButtonItem4.Caption = "Xóa";
             this.barButtonItem4.Id = 2;
-            this.barButtonItem4.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.pencil;
+            this.barButtonItem4.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.remove;
+            this.barButtonItem4.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem4.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem4.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem4.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem4.Name = "barButtonItem4";
             this.barButtonItem4.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
@@ -304,6 +309,10 @@
             this.barButtonItem5.Caption = "Lưu";
             this.barButtonItem5.Id = 3;
             this.barButtonItem5.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.diskette;
+            this.barButtonItem5.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem5.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem5.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem5.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem5.Name = "barButtonItem5";
             this.barButtonItem5.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
@@ -312,6 +321,10 @@
             this.barButtonItem7.Caption = "Làm mới";
             this.barButtonItem7.Id = 5;
             this.barButtonItem7.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.refresh;
+            this.barButtonItem7.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem7.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem7.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem7.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem7.Name = "barButtonItem7";
             this.barButtonItem7.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
@@ -320,6 +333,10 @@
             this.barButtonItem6.Caption = "Phục hồi";
             this.barButtonItem6.Id = 4;
             this.barButtonItem6.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.undo;
+            this.barButtonItem6.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem6.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem6.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem6.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem6.Name = "barButtonItem6";
             this.barButtonItem6.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
@@ -328,6 +345,10 @@
             this.barButtonItem9.Caption = "Thoát";
             this.barButtonItem9.Id = 6;
             this.barButtonItem9.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.next;
+            this.barButtonItem9.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem9.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem9.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem9.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem9.Name = "barButtonItem9";
             this.barButtonItem9.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
@@ -609,10 +630,10 @@
             // 
             // pictureBox10
             // 
-            this.pictureBox10.Image = global::QLVT_DATHANG.Properties.Resources.warehouse__1_;
+            this.pictureBox10.Image = global::QLVT_DATHANG.Properties.Resources.warehouse__3_;
             this.pictureBox10.Location = new System.Drawing.Point(32, 38);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(70, 72);
+            this.pictureBox10.Size = new System.Drawing.Size(100, 100);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 18;
             this.pictureBox10.TabStop = false;

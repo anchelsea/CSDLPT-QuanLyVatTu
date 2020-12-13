@@ -38,6 +38,10 @@ namespace QLVT_DATHANG
         public static bool flagCloseFormKho;
         public static bool flagCloseFormTaoTaiKhoan;
 
+        public static NhanVienForm nhanVienForm;
+
+        public static int manv = 0;         //Để khi vào các form con biết mã nv là gì
+
         public static BindingSource bds_dspm = new BindingSource();  // giữ bdsPM khi đăng nhập
 
 

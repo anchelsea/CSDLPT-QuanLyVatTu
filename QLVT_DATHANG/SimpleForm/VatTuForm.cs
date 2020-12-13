@@ -42,5 +42,10 @@ namespace QLVT_DATHANG
             this.chiNhanhTableAdapter.Fill(this.qLVT_DATHANGDataSet.ChiNhanh);
 
         }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

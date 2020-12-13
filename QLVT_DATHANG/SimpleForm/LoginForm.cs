@@ -66,10 +66,10 @@ namespace QLVT_DATHANG
             else
             {
                 this.Hide();
-               // frmMain f = new frmMain();
-               // f.Show();
-                NhanVienForm f = new NhanVienForm();
+                frmMain f = new frmMain();
                 f.Show();
+               // NhanVienForm f = new NhanVienForm();
+                //f.Show();
             }
 
             Program.myReader.Close();

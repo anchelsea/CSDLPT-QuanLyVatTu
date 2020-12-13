@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.ribbon = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
-            this.bar_btn_nhanvien = new DevExpress.XtraBars.BarButtonItem();
+            this.barbtnNhanVien = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
@@ -74,7 +74,7 @@
             this.ribbon.ExpandCollapseItem,
             this.ribbon.SearchEditItem,
             this.barButtonItem3,
-            this.bar_btn_nhanvien,
+            this.barbtnNhanVien,
             this.barButtonItem4,
             this.barButtonItem5,
             this.barButtonItem6,
@@ -101,37 +101,45 @@
             this.barButtonItem3.Id = 7;
             this.barButtonItem3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.Image")));
             this.barButtonItem3.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.LargeImage")));
+            this.barButtonItem3.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem3.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem3.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem3.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem3.LargeWidth = 100;
             this.barButtonItem3.Name = "barButtonItem3";
             // 
-            // bar_btn_nhanvien
+            // barbtnNhanVien
             // 
-            this.bar_btn_nhanvien.Caption = "Nhân Viên";
-            this.bar_btn_nhanvien.Id = 9;
-            this.bar_btn_nhanvien.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.business__1_;
-            this.bar_btn_nhanvien.ImageOptions.LargeImage = global::QLVT_DATHANG.Properties.Resources.officer;
-            this.bar_btn_nhanvien.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bar_btn_nhanvien.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Aqua;
-            this.bar_btn_nhanvien.ItemAppearance.Hovered.Options.UseFont = true;
-            this.bar_btn_nhanvien.ItemAppearance.Hovered.Options.UseForeColor = true;
-            this.bar_btn_nhanvien.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bar_btn_nhanvien.ItemAppearance.Normal.Options.UseFont = true;
-            this.bar_btn_nhanvien.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bar_btn_nhanvien.ItemAppearance.Pressed.Options.UseBorderColor = true;
-            this.bar_btn_nhanvien.ItemAppearance.Pressed.Options.UseFont = true;
-            this.bar_btn_nhanvien.LargeWidth = 100;
-            this.bar_btn_nhanvien.Name = "bar_btn_nhanvien";
-            this.bar_btn_nhanvien.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.bar_btn_nhanvien_ItemClick);
+            this.barbtnNhanVien.Caption = "Nhân Viên";
+            this.barbtnNhanVien.Id = 9;
+            this.barbtnNhanVien.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.business__1_;
+            this.barbtnNhanVien.ImageOptions.LargeImage = global::QLVT_DATHANG.Properties.Resources.officer;
+            this.barbtnNhanVien.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barbtnNhanVien.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Black;
+            this.barbtnNhanVien.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barbtnNhanVien.ItemAppearance.Hovered.Options.UseForeColor = true;
+            this.barbtnNhanVien.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barbtnNhanVien.ItemAppearance.Normal.Options.UseFont = true;
+            this.barbtnNhanVien.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barbtnNhanVien.ItemAppearance.Pressed.Options.UseBorderColor = true;
+            this.barbtnNhanVien.ItemAppearance.Pressed.Options.UseFont = true;
+            this.barbtnNhanVien.LargeWidth = 100;
+            this.barbtnNhanVien.Name = "barbtnNhanVien";
+            this.barbtnNhanVien.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnNhanVien_ItemClick);
             // 
             // barButtonItem4
             // 
             this.barButtonItem4.Caption = "Vật Tư";
             this.barButtonItem4.Id = 11;
-            this.barButtonItem4.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem4.ImageOptions.SvgImage")));
+            this.barButtonItem4.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.packages__1_;
+            this.barButtonItem4.ImageOptions.LargeImage = global::QLVT_DATHANG.Properties.Resources.packages__1_;
+            this.barButtonItem4.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem4.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem4.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barButtonItem4.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem4.LargeWidth = 100;
             this.barButtonItem4.Name = "barButtonItem4";
+            this.barButtonItem4.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             this.barButtonItem4.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem4_ItemClick);
             // 
             // barButtonItem5
@@ -140,6 +148,8 @@
             this.barButtonItem5.Id = 12;
             this.barButtonItem5.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem5.ImageOptions.Image")));
             this.barButtonItem5.ImageOptions.LargeImage = global::QLVT_DATHANG.Properties.Resources.home__2_;
+            this.barButtonItem5.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem5.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem5.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barButtonItem5.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem5.LargeWidth = 100;
@@ -150,6 +160,8 @@
             this.barButtonItem6.Caption = "Thêm tài khoản";
             this.barButtonItem6.Id = 13;
             this.barButtonItem6.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem6.ImageOptions.SvgImage")));
+            this.barButtonItem6.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem6.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem6.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barButtonItem6.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem6.LargeWidth = 110;
@@ -161,6 +173,8 @@
             this.barButtonItem7.Id = 14;
             this.barButtonItem7.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem7.ImageOptions.Image")));
             this.barButtonItem7.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem7.ImageOptions.LargeImage")));
+            this.barButtonItem7.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem7.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem7.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barButtonItem7.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem7.LargeWidth = 100;
@@ -172,6 +186,10 @@
             this.barButtonItem8.Id = 15;
             this.barButtonItem8.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem8.ImageOptions.Image")));
             this.barButtonItem8.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem8.ImageOptions.LargeImage")));
+            this.barButtonItem8.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem8.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem8.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem8.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem8.LargeWidth = 90;
             this.barButtonItem8.Name = "barButtonItem8";
             // 
@@ -181,6 +199,10 @@
             this.barButtonItem9.Id = 16;
             this.barButtonItem9.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem9.ImageOptions.Image")));
             this.barButtonItem9.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem9.ImageOptions.LargeImage")));
+            this.barButtonItem9.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem9.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem9.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem9.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem9.Name = "barButtonItem9";
             // 
             // barButtonItem10
@@ -189,6 +211,10 @@
             this.barButtonItem10.Id = 17;
             this.barButtonItem10.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem10.ImageOptions.Image")));
             this.barButtonItem10.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem10.ImageOptions.LargeImage")));
+            this.barButtonItem10.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem10.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem10.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem10.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem10.Name = "barButtonItem10";
             // 
             // barButtonItem11
@@ -197,6 +223,10 @@
             this.barButtonItem11.Id = 18;
             this.barButtonItem11.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem11.ImageOptions.Image")));
             this.barButtonItem11.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem11.ImageOptions.LargeImage")));
+            this.barButtonItem11.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem11.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem11.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem11.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem11.Name = "barButtonItem11";
             // 
             // barButtonItem12
@@ -205,6 +235,10 @@
             this.barButtonItem12.Id = 19;
             this.barButtonItem12.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem12.ImageOptions.Image")));
             this.barButtonItem12.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem12.ImageOptions.LargeImage")));
+            this.barButtonItem12.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem12.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem12.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem12.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem12.Name = "barButtonItem12";
             // 
             // barButtonItem13
@@ -213,6 +247,10 @@
             this.barButtonItem13.Id = 20;
             this.barButtonItem13.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.branch;
             this.barButtonItem13.ImageOptions.LargeImage = global::QLVT_DATHANG.Properties.Resources.branch;
+            this.barButtonItem13.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem13.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem13.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem13.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem13.LargeWidth = 100;
             this.barButtonItem13.Name = "barButtonItem13";
             // 
@@ -222,6 +260,10 @@
             this.barButtonItem14.Id = 22;
             this.barButtonItem14.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem14.ImageOptions.Image")));
             this.barButtonItem14.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem14.ImageOptions.LargeImage")));
+            this.barButtonItem14.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem14.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem14.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem14.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem14.Name = "barButtonItem14";
             // 
             // rb_quantri
@@ -240,7 +282,7 @@
             // ribbonPageGroup1
             // 
             this.ribbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
-            this.ribbonPageGroup1.ItemLinks.Add(this.bar_btn_nhanvien);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barbtnNhanVien);
             this.ribbonPageGroup1.Name = "ribbonPageGroup1";
             // 
             // ribbonPageGroup8
@@ -388,7 +430,7 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup7;
         private DevExpress.XtraBars.BarButtonItem barButtonItem1;
         private DevExpress.XtraBars.BarButtonItem barButtonItem2;
-        private DevExpress.XtraBars.BarButtonItem bar_btn_nhanvien;
+        private DevExpress.XtraBars.BarButtonItem barbtnNhanVien;
         private DevExpress.XtraBars.BarButtonItem barButtonItem4;
         private DevExpress.XtraBars.BarButtonItem barButtonItem5;
         private DevExpress.XtraBars.BarButtonItem barButtonItem6;
