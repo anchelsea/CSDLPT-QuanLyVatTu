@@ -59,5 +59,10 @@ namespace QLVT_DATHANG
         {
 
         }
+
+        private void btnThoatKho_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

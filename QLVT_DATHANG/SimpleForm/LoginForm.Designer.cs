@@ -45,12 +45,15 @@
             this.label3 = new System.Windows.Forms.Label();
             this.v_DS_PHANMANHTableAdapter = new QLVT_DATHANG.QLVT_DATHANGDataSet_PHANMANHTableAdapters.V_DS_PHANMANHTableAdapter();
             this.tableAdapterManager = new QLVT_DATHANG.QLVT_DATHANGDataSet_PHANMANHTableAdapters.TableAdapterManager();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.v_DS_PHANMANHBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qLVT_DATHANGDataSet_PHANMANH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // bt_dang_nhap
@@ -59,7 +62,7 @@
             this.bt_dang_nhap.Location = new System.Drawing.Point(132, 275);
             this.bt_dang_nhap.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.bt_dang_nhap.Name = "bt_dang_nhap";
-            this.bt_dang_nhap.Size = new System.Drawing.Size(238, 60);
+            this.bt_dang_nhap.Size = new System.Drawing.Size(250, 60);
             this.bt_dang_nhap.TabIndex = 0;
             this.bt_dang_nhap.Text = "           Đăng nhập  ";
             this.bt_dang_nhap.UseVisualStyleBackColor = false;
@@ -73,7 +76,7 @@
             this.cb_chi_nhanh.Location = new System.Drawing.Point(257, 78);
             this.cb_chi_nhanh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cb_chi_nhanh.Name = "cb_chi_nhanh";
-            this.cb_chi_nhanh.Size = new System.Drawing.Size(175, 24);
+            this.cb_chi_nhanh.Size = new System.Drawing.Size(178, 24);
             this.cb_chi_nhanh.TabIndex = 1;
             this.cb_chi_nhanh.ValueMember = "TENSERVER";
             // 
@@ -92,7 +95,7 @@
             this.tb_dang_nhap.Location = new System.Drawing.Point(257, 141);
             this.tb_dang_nhap.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tb_dang_nhap.Name = "tb_dang_nhap";
-            this.tb_dang_nhap.Size = new System.Drawing.Size(175, 23);
+            this.tb_dang_nhap.Size = new System.Drawing.Size(178, 23);
             this.tb_dang_nhap.TabIndex = 2;
             // 
             // tb_mat_khau
@@ -100,7 +103,7 @@
             this.tb_mat_khau.Location = new System.Drawing.Point(257, 206);
             this.tb_mat_khau.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tb_mat_khau.Name = "tb_mat_khau";
-            this.tb_mat_khau.Size = new System.Drawing.Size(175, 23);
+            this.tb_mat_khau.Size = new System.Drawing.Size(178, 23);
             this.tb_mat_khau.TabIndex = 3;
             this.tb_mat_khau.UseSystemPasswordChar = true;
             // 
@@ -186,12 +189,38 @@
             this.tableAdapterManager.Connection = null;
             this.tableAdapterManager.UpdateOrder = QLVT_DATHANG.QLVT_DATHANGDataSet_PHANMANHTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.LightCyan;
+            this.pictureBox5.Image = global::QLVT_DATHANG.Properties.Resources.log_out;
+            this.pictureBox5.Location = new System.Drawing.Point(193, 359);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 12;
+            this.pictureBox5.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightCyan;
+            this.button1.Location = new System.Drawing.Point(178, 353);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(166, 47);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "           Thoát  ";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.Exit);
+            // 
             // LoginForm
             // 
             this.Appearance.Options.UseFont = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(470, 383);
+            this.ClientSize = new System.Drawing.Size(493, 401);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -216,6 +245,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -238,5 +268,7 @@
         private System.Windows.Forms.BindingSource v_DS_PHANMANHBindingSource;
         private QLVT_DATHANGDataSet_PHANMANHTableAdapters.V_DS_PHANMANHTableAdapter v_DS_PHANMANHTableAdapter;
         private QLVT_DATHANGDataSet_PHANMANHTableAdapters.TableAdapterManager tableAdapterManager;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Button button1;
     }
 }

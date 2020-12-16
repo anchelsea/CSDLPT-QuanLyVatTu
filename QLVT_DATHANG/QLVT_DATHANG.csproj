@@ -90,6 +90,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>QLVT_DATHANGDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="QLVT_DATHANGDataSet_NVTrung.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLVT_DATHANGDataSet_NVTrung.xsd</DependentUpon>
+    </Compile>
     <Compile Include="QLVT_DATHANGDataSet_PHANMANH.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -131,6 +136,12 @@
     <Compile Include="SimpleForm\VatTuForm.Designer.cs">
       <DependentUpon>VatTuForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SubForm\ChuyenChiNhanhSubForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\ChuyenChiNhanhSubForm.Designer.cs">
+      <DependentUpon>ChuyenChiNhanhSubForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SubForm\CTDDHSubForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,6 +171,12 @@
     </Compile>
     <Compile Include="SubForm\NhanVienSubForm.Designer.cs">
       <DependentUpon>NhanVienSubForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NVTrungIncurredForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\NVTrungIncurredForm.Designer.cs">
+      <DependentUpon>NVTrungIncurredForm.cs</DependentUpon>
     </Compile>
     <Compile Include="SubForm\PhieuNhapSubForm.cs">
       <SubType>Form</SubType>
@@ -202,6 +219,9 @@
     <EmbeddedResource Include="SimpleForm\VatTuForm.resx">
       <DependentUpon>VatTuForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\ChuyenChiNhanhSubForm.resx">
+      <DependentUpon>ChuyenChiNhanhSubForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SubForm\CTDDHSubForm.resx">
       <DependentUpon>CTDDHSubForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -216,6 +236,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SubForm\NhanVienSubForm.resx">
       <DependentUpon>NhanVienSubForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NVTrungIncurredForm.resx">
+      <DependentUpon>NVTrungIncurredForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SubForm\PhieuNhapSubForm.resx">
       <DependentUpon>PhieuNhapSubForm.cs</DependentUpon>
@@ -249,6 +272,25 @@
   <ItemGroup>
     <Content Include="Properties\account.png" />
     <Content Include="Properties\lock.png" />
+    <None Include="QLVT_DATHANGDataSet_NVTrung.xsc">
+      <DependentUpon>QLVT_DATHANGDataSet_NVTrung.xsd</DependentUpon>
+    </None>
+    <None Include="QLVT_DATHANGDataSet_NVTrung.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLVT_DATHANGDataSet_NVTrung.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLVT_DATHANGDataSet_NVTrung.xss">
+      <DependentUpon>QLVT_DATHANGDataSet_NVTrung.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\plus32.png" />
+    <None Include="Resources\inventor.png" />
+    <None Include="Resources\supply-chain %281%29.png" />
+    <None Include="Resources\turnover.png" />
+    <None Include="Resources\outsourcing.png" />
+    <None Include="Resources\inventory %282%29.png" />
+    <None Include="Resources\inventory %283%29.png" />
+    <None Include="Resources\inventory %281%29.png" />
     <None Include="Resources\pallet.png" />
     <None Include="Resources\packages %282%29.png" />
     <None Include="Resources\stock.png" />

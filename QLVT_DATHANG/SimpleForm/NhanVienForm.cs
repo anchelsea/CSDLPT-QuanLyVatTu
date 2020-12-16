@@ -21,6 +21,8 @@ namespace QLVT_DATHANG
             InitializeComponent();
         }
 
+
+
         private void NhanVienForm_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'qLVT_DATHANGDataSet_DS_NHANVIEN.ChiNhanh' table. You can move, or remove it, as needed.
@@ -34,11 +36,13 @@ namespace QLVT_DATHANG
             this.cbChiNhanh.DataSource = Program.bds_dspm; //DataSource của cbChiNhanh tham chiếu đến bindingSource ở LoginForm
             cbChiNhanh.DisplayMember = "TENCN";
             cbChiNhanh.ValueMember = "TENSERVER";
+
+            cbChiNhanh.Enabled = false;
         }
 
         public static int newMANV()
         {
-            string query = "SELECT MAX(MANV) FROM QLVT_DATHANG.DBO.NHANVIEN";
+            string query = "SELECT MAX(MANV) FROM LINK2.QLVT_DATHANG.DBO.NHANVIEN";
 
             int maNvNew = 0;
 
@@ -64,30 +68,7 @@ namespace QLVT_DATHANG
             return -1;  //Không tìm thấy trả -1 đánh dấu Dừng chương trình
         }
 
-        private void barButtonItem10_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
-        {
 
-        }
-
-        private void gb_tt_nhanvien_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void trangThaiXoaCheckBox_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void barButtonItem20_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
-        {
-
-        }
 
 
         private bool checkValidate(NumericUpDown nu, string str)
@@ -126,7 +107,16 @@ namespace QLVT_DATHANG
             mANVNumericUpDown.Value = newMANV();
             lUONGSpinEdit.Value = 4000000;
             ((DataRowView)nhanVienBindingSource[nhanVienBindingSource.Position])["LUONG"] = 4000000;
-            mACNTextEdit.Text = maCN;
+            if(cbChiNhanh.Text=="CHI NHÁNH 1")
+            {
+                mACNTextEdit.Text = "CN1";
+            }
+           else if (cbChiNhanh.Text == "CHI NHÁNH 2")
+            {
+                mACNTextEdit.Text = "CN2";
+            }
+
+            mACNTextEdit.Enabled = false;
             trangThaiXoaCheckBox.Checked = trangThaiXoaCheckBox.Enabled = false;
             btnThem.Enabled = btnXoa.Enabled = gcNhanVien.Enabled = false;
             btnChuyenCN.Enabled = btnRefresh.Enabled = false;
@@ -209,10 +199,13 @@ namespace QLVT_DATHANG
                             Program.flagCloseFormNV = true; //Bật cờ cho phép tắt Form NV
                             btnThem.Enabled = btnXoa.Enabled = gcNhanVien.Enabled = true;
                             btnChuyenCN.Enabled = btnRefresh.Enabled = true;
-                            btnUndo.Enabled = gb_thongtinNV.Enabled = btnLuu.Enabled = false;
+                            btnUndo.Enabled = gb_thongtinNV.Enabled = btnLuu.Enabled = true;
                             this.nhanVienBindingSource.EndEdit();
                             this.nhanVienTableAdapter.Update(this.qLVT_DATHANGDataSet.NhanVien);
-                            nhanVienBindingSource.Position = position;
+                            nhanVienBindingSource.Position = positionMANV;
+                            pnThongBao.Visible=true;
+                            lbThongBao.Text = "Thêm mới hoặc cập nhật thông tin nhân viên thành công. ";
+                           
                         }
                         catch (Exception ex)
                         {
@@ -333,6 +326,64 @@ namespace QLVT_DATHANG
             if (nhanVienBindingSource.Count == 0) btnXoa.Enabled = false;
             this.nhanVienTableAdapter.Fill(this.qLVT_DATHANGDataSet.NhanVien);
             nhanVienBindingSource.Position = nhanVienBindingSource.Find("MANV", manv);
+            pnThongBao.Visible = true;
+            lbThongBao.Text = "Xoá nhân viên thành công. ";
+        }
+
+        private void btnRefresh_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            this.nhanVienTableAdapter.Fill(this.qLVT_DATHANGDataSet.NhanVien);
+            //if (gbDatHang.Visible || gbPhieuNhap.Visible || gbPhieuXuat.Visible)
+            //{
+            //    Nếu đăng Nhập các phiếu khi Refresh cho về vị trí Nhân Viên đang đăng nhập
+            //    nhanVienBindingSource.Position = nhanVienBindingSource.Find("MANV", Program.manv);
+            //}
+            pnThongBao.Visible = true;
+            lbThongBao.Text = "Làm mới thành công. ";
+
+        }
+
+        private void btnExit_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnUndo_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            btnThem.Enabled = btnXoa.Enabled = gcNhanVien.Enabled = btnLuu.Enabled = true;
+            btnRefresh.Enabled = btnChuyenCN.Enabled  = btnSubNhapXuat.Enabled = true;
+            btnUndo.Enabled  = false;
+            Program.flagCloseFormNV = true; //Undo lại thì cho phép thoát mà ko kiểm tra dữ liệu
+            nhanVienBindingSource.CancelEdit();
+            nhanVienBindingSource.Position = position;
+        }
+
+
+        // CHUYEN CHI NHANH
+        private void btnChuyenCN_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Program.chuyenChiNhanhSubForm = new SubForm.ChuyenChiNhanhSubForm();
+            Program.chuyenChiNhanhSubForm.Show();
+            Program.nhanVienForm.Enabled = false;
+
+
+ 
+
+        }
+
+        private void btnExit_ItemClick_1(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void lUONGSpinEdit_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tENTextEdit_EditValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

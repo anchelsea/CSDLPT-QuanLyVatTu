@@ -41,7 +41,7 @@
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
+            this.btnThoatVatTu = new DevExpress.XtraBars.BarButtonItem();
             this.bar3 = new DevExpress.XtraBars.Bar();
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
@@ -138,7 +138,7 @@
             this.barButtonItem1,
             this.barButtonItem2,
             this.barButtonItem3,
-            this.barButtonItem4,
+            this.btnThoatVatTu,
             this.barButtonItem5,
             this.barButtonItem6});
             this.barManager1.MainMenu = this.bar2;
@@ -157,7 +157,7 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem3),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem5),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem6),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem4)});
+            new DevExpress.XtraBars.LinkPersistInfo(this.btnThoatVatTu)});
             this.bar2.OptionsBar.MultiLine = true;
             this.bar2.OptionsBar.UseWholeRow = true;
             this.bar2.Text = "Main menu";
@@ -166,7 +166,7 @@
             // 
             this.barButtonItem1.Caption = "Thêm";
             this.barButtonItem1.Id = 0;
-            this.barButtonItem1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.Image")));
+            this.barButtonItem1.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.plus1;
             this.barButtonItem1.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barButtonItem1.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem1.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -222,17 +222,18 @@
             this.barButtonItem6.Name = "barButtonItem6";
             this.barButtonItem6.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
-            // barButtonItem4
+            // btnThoatVatTu
             // 
-            this.barButtonItem4.Caption = "Thoát";
-            this.barButtonItem4.Id = 4;
-            this.barButtonItem4.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.next;
-            this.barButtonItem4.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barButtonItem4.ItemAppearance.Hovered.Options.UseFont = true;
-            this.barButtonItem4.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barButtonItem4.ItemAppearance.Normal.Options.UseFont = true;
-            this.barButtonItem4.Name = "barButtonItem4";
-            this.barButtonItem4.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.btnThoatVatTu.Caption = "Thoát";
+            this.btnThoatVatTu.Id = 4;
+            this.btnThoatVatTu.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.next;
+            this.btnThoatVatTu.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThoatVatTu.ItemAppearance.Hovered.Options.UseFont = true;
+            this.btnThoatVatTu.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThoatVatTu.ItemAppearance.Normal.Options.UseFont = true;
+            this.btnThoatVatTu.Name = "btnThoatVatTu";
+            this.btnThoatVatTu.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.btnThoatVatTu.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnThoatVatTu_ItemClick);
             // 
             // bar3
             // 
@@ -282,17 +283,19 @@
             // 
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(15, 46);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 40);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1238, 47);
+            this.panel1.Size = new System.Drawing.Size(1312, 40);
             this.panel1.TabIndex = 4;
             // 
             // comboBox1
             // 
             this.comboBox1.DataSource = this.chiNhanhBindingSource;
             this.comboBox1.DisplayMember = "ChiNhanh";
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(127, 13);
+            this.comboBox1.Location = new System.Drawing.Point(140, 9);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(206, 24);
             this.comboBox1.TabIndex = 1;
@@ -349,22 +352,37 @@
             // vattuGridControl
             // 
             this.vattuGridControl.DataSource = this.vattuBindingSource;
+            this.vattuGridControl.Dock = System.Windows.Forms.DockStyle.Top;
             this.vattuGridControl.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.vattuGridControl.Location = new System.Drawing.Point(15, 112);
+            this.vattuGridControl.Location = new System.Drawing.Point(0, 80);
             this.vattuGridControl.MainView = this.gridView1;
             this.vattuGridControl.MenuManager = this.barManager1;
             this.vattuGridControl.Name = "vattuGridControl";
-            this.vattuGridControl.Size = new System.Drawing.Size(1238, 306);
+            this.vattuGridControl.Size = new System.Drawing.Size(1312, 306);
             this.vattuGridControl.TabIndex = 5;
             this.vattuGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
             // 
+            this.gridView1.Appearance.FocusedRow.BackColor = System.Drawing.Color.Lime;
+            this.gridView1.Appearance.FocusedRow.Options.UseBackColor = true;
+            this.gridView1.Appearance.FooterPanel.BackColor = System.Drawing.Color.Transparent;
+            this.gridView1.Appearance.FooterPanel.Options.UseBackColor = true;
             this.gridView1.Appearance.GroupPanel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridView1.Appearance.GroupPanel.ForeColor = System.Drawing.Color.Red;
             this.gridView1.Appearance.GroupPanel.Options.UseFont = true;
             this.gridView1.Appearance.GroupPanel.Options.UseForeColor = true;
+            this.gridView1.Appearance.HeaderPanel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridView1.Appearance.HeaderPanel.Options.UseFont = true;
+            this.gridView1.Appearance.HeaderPanel.Options.UseTextOptions = true;
+            this.gridView1.Appearance.HeaderPanel.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridView1.Appearance.Row.BackColor = System.Drawing.Color.White;
+            this.gridView1.Appearance.Row.Options.UseBackColor = true;
+            this.gridView1.Appearance.Row.Options.UseTextOptions = true;
+            this.gridView1.Appearance.Row.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridView1.Appearance.ViewCaption.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridView1.Appearance.ViewCaption.Options.UseFont = true;
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.colMAVT,
             this.colTENVT,
@@ -376,40 +394,68 @@
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ShowGroupPanel = false;
             this.gridView1.OptionsView.ShowViewCaption = true;
-            this.gridView1.ViewCaption = "Danh sách Vật tư";
+            this.gridView1.ViewCaption = "DANH SÁCH VẬT TƯ";
             // 
             // colMAVT
             // 
+            this.colMAVT.AppearanceHeader.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.colMAVT.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colMAVT.AppearanceHeader.Options.UseBackColor = true;
+            this.colMAVT.AppearanceHeader.Options.UseFont = true;
+            this.colMAVT.Caption = "Mã vật tư";
             this.colMAVT.FieldName = "MAVT";
             this.colMAVT.MinWidth = 23;
             this.colMAVT.Name = "colMAVT";
+            this.colMAVT.OptionsColumn.AllowEdit = false;
+            this.colMAVT.OptionsColumn.AllowFocus = false;
             this.colMAVT.Visible = true;
             this.colMAVT.VisibleIndex = 0;
             this.colMAVT.Width = 87;
             // 
             // colTENVT
             // 
+            this.colTENVT.AppearanceHeader.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.colTENVT.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colTENVT.AppearanceHeader.Options.UseBackColor = true;
+            this.colTENVT.AppearanceHeader.Options.UseFont = true;
+            this.colTENVT.Caption = "Tên vật tư";
             this.colTENVT.FieldName = "TENVT";
             this.colTENVT.MinWidth = 23;
             this.colTENVT.Name = "colTENVT";
+            this.colTENVT.OptionsColumn.AllowEdit = false;
+            this.colTENVT.OptionsColumn.AllowFocus = false;
             this.colTENVT.Visible = true;
             this.colTENVT.VisibleIndex = 1;
             this.colTENVT.Width = 87;
             // 
             // colDVT
             // 
+            this.colDVT.AppearanceHeader.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.colDVT.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colDVT.AppearanceHeader.Options.UseBackColor = true;
+            this.colDVT.AppearanceHeader.Options.UseFont = true;
+            this.colDVT.Caption = "Đơn vị tính";
             this.colDVT.FieldName = "DVT";
             this.colDVT.MinWidth = 23;
             this.colDVT.Name = "colDVT";
+            this.colDVT.OptionsColumn.AllowEdit = false;
+            this.colDVT.OptionsColumn.AllowFocus = false;
             this.colDVT.Visible = true;
             this.colDVT.VisibleIndex = 2;
             this.colDVT.Width = 87;
             // 
             // colSOLUONGTON
             // 
+            this.colSOLUONGTON.AppearanceHeader.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.colSOLUONGTON.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colSOLUONGTON.AppearanceHeader.Options.UseBackColor = true;
+            this.colSOLUONGTON.AppearanceHeader.Options.UseFont = true;
+            this.colSOLUONGTON.Caption = "Số lượng tồn";
             this.colSOLUONGTON.FieldName = "SOLUONGTON";
             this.colSOLUONGTON.MinWidth = 23;
             this.colSOLUONGTON.Name = "colSOLUONGTON";
+            this.colSOLUONGTON.OptionsColumn.AllowEdit = false;
+            this.colSOLUONGTON.OptionsColumn.AllowFocus = false;
             this.colSOLUONGTON.Visible = true;
             this.colSOLUONGTON.VisibleIndex = 3;
             this.colSOLUONGTON.Width = 87;
@@ -512,6 +558,7 @@
             this.IconOptions.Image = ((System.Drawing.Image)(resources.GetObject("VatTuForm.IconOptions.Image")));
             this.Name = "VatTuForm";
             this.Text = "Vật tư";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.VatTuForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
             this.panel1.ResumeLayout(false);
@@ -542,7 +589,7 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem3;
         private DevExpress.XtraBars.BarButtonItem barButtonItem5;
         private DevExpress.XtraBars.BarButtonItem barButtonItem6;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem4;
+        private DevExpress.XtraBars.BarButtonItem btnThoatVatTu;
         private DevExpress.XtraBars.Bar bar3;
         private DevExpress.XtraBars.BarDockControl barDockControlTop;
         private DevExpress.XtraBars.BarDockControl barDockControlBottom;

@@ -47,5 +47,10 @@ namespace QLVT_DATHANG
         {
 
         }
+
+        private void btnThoatVatTu_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

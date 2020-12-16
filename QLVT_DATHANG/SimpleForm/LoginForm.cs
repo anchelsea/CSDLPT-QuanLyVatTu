@@ -25,7 +25,15 @@ namespace QLVT_DATHANG
                     return f;
             return null;
         }
-        
+
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'qLVT_DATHANGDataSet_PHANMANH.V_DS_PHANMANH' table. You can move, or remove it, as needed.
+            this.v_DS_PHANMANHTableAdapter.Fill(this.qLVT_DATHANGDataSet_PHANMANH.V_DS_PHANMANH);
+
+        }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -76,11 +84,10 @@ namespace QLVT_DATHANG
             Program.conn.Close();
         }
 
-        private void LoginForm_Load(object sender, EventArgs e)
+        private void Exit(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'qLVT_DATHANGDataSet_PHANMANH.V_DS_PHANMANH' table. You can move, or remove it, as needed.
-            this.v_DS_PHANMANHTableAdapter.Fill(this.qLVT_DATHANGDataSet_PHANMANH.V_DS_PHANMANH);
-
+            //this.Close();
+            System.Windows.Forms.Application.Exit();
         }
     }
 }

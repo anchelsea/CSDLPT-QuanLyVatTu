@@ -21,7 +21,8 @@ namespace QLVT_DATHANG
         public static SqlDataReader myReader;
         public static String servername = "";
         public static String username = "";
-        public static String mlogin = "";
+
+        public static String mlogin = "";   //my login in LoginForm
         public static String password = "";
 
         public static String database = "QLVT_DATHANG";
@@ -31,14 +32,29 @@ namespace QLVT_DATHANG
         public static String passwordDN = "";
         public static String mGroup = "";
         public static String mHoten = "";
-        public static int mChinhanh = 0;
+        public static string group = "";    //Để khi vào các form con biết đang ở quyền nào
+
+       
 
         public static bool flagCloseFormNV;
         public static bool flagCloseFormVT;
         public static bool flagCloseFormKho;
         public static bool flagCloseFormTaoTaiKhoan;
 
+        public static int mChinhanh = 0;
+        public static int maNVChuyenCN;
+
+
+
+        public static frmMain mainForm;
         public static NhanVienForm nhanVienForm;
+        public static VatTuForm vatTuForm;
+        public static KhoForm khoForm;
+        public static ThemTaiKhoanForm themTaiKhoanForm;
+        public static LoginForm loginForm;
+
+        public static SubForm.NVTrungIncurredForm nVTrungIncurredForm;
+        public static SubForm.ChuyenChiNhanhSubForm chuyenChiNhanhSubForm;
 
         public static int manv = 0;         //Để khi vào các form con biết mã nv là gì
 

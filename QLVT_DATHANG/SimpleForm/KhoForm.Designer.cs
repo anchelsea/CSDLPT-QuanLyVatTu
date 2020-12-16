@@ -34,7 +34,6 @@
             System.Windows.Forms.Label mACNLabel;
             System.Windows.Forms.Label tENKHOLabel;
             System.Windows.Forms.Label dIACHILabel;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KhoForm));
             DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
             DevExpress.XtraGrid.GridLevelNode gridLevelNode2 = new DevExpress.XtraGrid.GridLevelNode();
             DevExpress.XtraGrid.GridLevelNode gridLevelNode3 = new DevExpress.XtraGrid.GridLevelNode();
@@ -43,6 +42,7 @@
             DevExpress.XtraGrid.GridLevelNode gridLevelNode6 = new DevExpress.XtraGrid.GridLevelNode();
             DevExpress.XtraGrid.GridLevelNode gridLevelNode7 = new DevExpress.XtraGrid.GridLevelNode();
             DevExpress.XtraGrid.GridLevelNode gridLevelNode8 = new DevExpress.XtraGrid.GridLevelNode();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KhoForm));
             this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.bar3 = new DevExpress.XtraBars.Bar();
@@ -54,7 +54,6 @@
             this.barManager2 = new DevExpress.XtraBars.BarManager(this.components);
             this.bar5 = new DevExpress.XtraBars.Bar();
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
@@ -65,6 +64,7 @@
             this.barDockControl2 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl3 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl4 = new DevExpress.XtraBars.BarDockControl();
+            this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
             this.qLVT_DATHANGDataSet = new QLVT_DATHANG.QLVT_DATHANGDataSet();
             this.khoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.khoTableAdapter = new QLVT_DATHANG.QLVT_DATHANGDataSetTableAdapters.KhoTableAdapter();
@@ -275,22 +275,13 @@
             // 
             this.barButtonItem2.Caption = "Thêm";
             this.barButtonItem2.Id = 7;
-            this.barButtonItem2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem2.ImageOptions.Image")));
+            this.barButtonItem2.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.plus1;
             this.barButtonItem2.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barButtonItem2.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem2.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barButtonItem2.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem2.Name = "barButtonItem2";
             this.barButtonItem2.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
-            // 
-            // barButtonItem3
-            // 
-            this.barButtonItem3.Caption = "Xóa";
-            this.barButtonItem3.Id = 1;
-            this.barButtonItem3.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.remove;
-            this.barButtonItem3.Name = "barButtonItem3";
-            this.barButtonItem3.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
-            this.barButtonItem3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem3_ItemClick);
             // 
             // barButtonItem4
             // 
@@ -349,8 +340,11 @@
             this.barButtonItem9.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem9.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barButtonItem9.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem9.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem9.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem9.Name = "barButtonItem9";
             this.barButtonItem9.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.barButtonItem9.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnThoatKho_ItemClick);
             // 
             // bar6
             // 
@@ -396,6 +390,15 @@
             this.barDockControl4.Manager = this.barManager2;
             this.barDockControl4.Size = new System.Drawing.Size(0, 522);
             // 
+            // barButtonItem3
+            // 
+            this.barButtonItem3.Caption = "Xóa";
+            this.barButtonItem3.Id = 1;
+            this.barButtonItem3.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.remove;
+            this.barButtonItem3.Name = "barButtonItem3";
+            this.barButtonItem3.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.barButtonItem3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem3_ItemClick);
+            // 
             // qLVT_DATHANGDataSet
             // 
             this.qLVT_DATHANGDataSet.DataSetName = "QLVT_DATHANGDataSet";
@@ -428,6 +431,7 @@
             // khoGridControl
             // 
             this.khoGridControl.DataSource = this.khoBindingSource;
+            this.khoGridControl.Dock = System.Windows.Forms.DockStyle.Top;
             gridLevelNode2.RelationName = "FK_CTDDH_DatHang";
             gridLevelNode4.RelationName = "FK_CTPN_PhieuNhap";
             gridLevelNode3.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
@@ -449,19 +453,33 @@
             gridLevelNode1,
             gridLevelNode5,
             gridLevelNode7});
-            this.khoGridControl.Location = new System.Drawing.Point(12, 99);
+            this.khoGridControl.Location = new System.Drawing.Point(0, 80);
             this.khoGridControl.MainView = this.gridView1;
             this.khoGridControl.MenuManager = this.barManager1;
             this.khoGridControl.Name = "khoGridControl";
-            this.khoGridControl.Size = new System.Drawing.Size(1101, 256);
+            this.khoGridControl.Size = new System.Drawing.Size(1125, 256);
             this.khoGridControl.TabIndex = 9;
             this.khoGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
             // 
-            this.gridView1.Appearance.GroupPanel.ForeColor = System.Drawing.Color.Red;
-            this.gridView1.Appearance.GroupPanel.Options.UseForeColor = true;
+            this.gridView1.Appearance.FocusedRow.BackColor = System.Drawing.Color.Lime;
+            this.gridView1.Appearance.FocusedRow.Options.UseBackColor = true;
+            this.gridView1.Appearance.FooterPanel.BackColor = System.Drawing.Color.Transparent;
+            this.gridView1.Appearance.FooterPanel.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridView1.Appearance.FooterPanel.Options.UseBackColor = true;
+            this.gridView1.Appearance.FooterPanel.Options.UseFont = true;
+            this.gridView1.Appearance.GroupPanel.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridView1.Appearance.GroupPanel.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.gridView1.Appearance.HeaderPanel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridView1.Appearance.HeaderPanel.Options.UseFont = true;
+            this.gridView1.Appearance.HeaderPanel.Options.UseTextOptions = true;
+            this.gridView1.Appearance.HeaderPanel.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridView1.Appearance.Row.Options.UseTextOptions = true;
+            this.gridView1.Appearance.Row.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridView1.Appearance.ViewCaption.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridView1.Appearance.ViewCaption.Options.UseFont = true;
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.colMAKHO,
             this.colTENKHO,
@@ -472,33 +490,61 @@
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ShowGroupPanel = false;
             this.gridView1.OptionsView.ShowViewCaption = true;
-            this.gridView1.ViewCaption = "Danh sách Kho";
+            this.gridView1.ViewCaption = "DANH SÁCH KHO";
             // 
             // colMAKHO
             // 
+            this.colMAKHO.AppearanceHeader.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.colMAKHO.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colMAKHO.AppearanceHeader.Options.UseBackColor = true;
+            this.colMAKHO.AppearanceHeader.Options.UseFont = true;
+            this.colMAKHO.Caption = "Mã kho";
             this.colMAKHO.FieldName = "MAKHO";
             this.colMAKHO.Name = "colMAKHO";
+            this.colMAKHO.OptionsColumn.AllowEdit = false;
+            this.colMAKHO.OptionsColumn.AllowFocus = false;
             this.colMAKHO.Visible = true;
             this.colMAKHO.VisibleIndex = 0;
             // 
             // colTENKHO
             // 
+            this.colTENKHO.AppearanceHeader.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.colTENKHO.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colTENKHO.AppearanceHeader.Options.UseBackColor = true;
+            this.colTENKHO.AppearanceHeader.Options.UseFont = true;
+            this.colTENKHO.Caption = "Tên kho";
             this.colTENKHO.FieldName = "TENKHO";
             this.colTENKHO.Name = "colTENKHO";
+            this.colTENKHO.OptionsColumn.AllowEdit = false;
+            this.colTENKHO.OptionsColumn.AllowFocus = false;
             this.colTENKHO.Visible = true;
             this.colTENKHO.VisibleIndex = 1;
             // 
             // colDIACHI
             // 
+            this.colDIACHI.AppearanceHeader.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.colDIACHI.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colDIACHI.AppearanceHeader.Options.UseBackColor = true;
+            this.colDIACHI.AppearanceHeader.Options.UseFont = true;
+            this.colDIACHI.Caption = "Địa chỉ";
             this.colDIACHI.FieldName = "DIACHI";
             this.colDIACHI.Name = "colDIACHI";
+            this.colDIACHI.OptionsColumn.AllowEdit = false;
+            this.colDIACHI.OptionsColumn.AllowFocus = false;
             this.colDIACHI.Visible = true;
             this.colDIACHI.VisibleIndex = 2;
             // 
             // colMACN
             // 
+            this.colMACN.AppearanceHeader.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.colMACN.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colMACN.AppearanceHeader.Options.UseBackColor = true;
+            this.colMACN.AppearanceHeader.Options.UseFont = true;
+            this.colMACN.Caption = "Mã chi nhánh";
             this.colMACN.FieldName = "MACN";
             this.colMACN.Name = "colMACN";
+            this.colMACN.OptionsColumn.AllowEdit = false;
+            this.colMACN.OptionsColumn.AllowFocus = false;
             this.colMACN.Visible = true;
             this.colMACN.VisibleIndex = 3;
             // 
@@ -513,7 +559,7 @@
             this.cbChiNhanh.DisplayMember = "ChiNhanh";
             this.cbChiNhanh.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbChiNhanh.FormattingEnabled = true;
-            this.cbChiNhanh.Location = new System.Drawing.Point(92, 13);
+            this.cbChiNhanh.Location = new System.Drawing.Point(98, 13);
             this.cbChiNhanh.Name = "cbChiNhanh";
             this.cbChiNhanh.Size = new System.Drawing.Size(196, 21);
             this.cbChiNhanh.TabIndex = 11;
@@ -538,9 +584,10 @@
             // 
             this.pn_chinhanh.Controls.Add(this.cbChiNhanh);
             this.pn_chinhanh.Controls.Add(this.label1);
-            this.pn_chinhanh.Location = new System.Drawing.Point(12, 46);
+            this.pn_chinhanh.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pn_chinhanh.Location = new System.Drawing.Point(0, 40);
             this.pn_chinhanh.Name = "pn_chinhanh";
-            this.pn_chinhanh.Size = new System.Drawing.Size(1101, 47);
+            this.pn_chinhanh.Size = new System.Drawing.Size(1125, 40);
             this.pn_chinhanh.TabIndex = 10;
             // 
             // chiNhanhTableAdapter
@@ -648,8 +695,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1125, 582);
             this.Controls.Add(this.gbInfor);
-            this.Controls.Add(this.pn_chinhanh);
             this.Controls.Add(this.khoGridControl);
+            this.Controls.Add(this.pn_chinhanh);
             this.Controls.Add(this.barDockControlLeft);
             this.Controls.Add(this.barDockControlRight);
             this.Controls.Add(this.barDockControlBottom);

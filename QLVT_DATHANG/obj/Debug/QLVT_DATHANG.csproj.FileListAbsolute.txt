@@ -491,3 +491,5 @@ D:\Downloads\CSDLPT-QuanLyVatTu-master\QLVT_DATHANG\obj\Debug\QLVT_DATHANG.cspro
 D:\Downloads\CSDLPT-QuanLyVatTu-master\QLVT_DATHANG\obj\Debug\QLVT_DATHANG.csproj.CopyComplete
 D:\Downloads\CSDLPT-QuanLyVatTu-master\QLVT_DATHANG\obj\Debug\QLVT_DATHANG.exe
 D:\Downloads\CSDLPT-QuanLyVatTu-master\QLVT_DATHANG\obj\Debug\QLVT_DATHANG.pdb
+D:\Downloads\CSDLPT-QuanLyVatTu-master\QLVT_DATHANG\obj\Debug\QLVT_DATHANG.SubForm.NVTrungIncurredForm.resources
+D:\Downloads\CSDLPT-QuanLyVatTu-master\QLVT_DATHANG\obj\Debug\QLVT_DATHANG.SubForm.ChuyenChiNhanhSubForm.resources
