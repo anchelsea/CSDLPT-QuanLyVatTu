@@ -70,6 +70,8 @@ namespace QLVT_DATHANG
                 {
                     ribbonPageGroup14.Visible = false;
                 }
+
+
             }
         }
 
@@ -111,6 +113,8 @@ namespace QLVT_DATHANG
                 Program.nhanVienForm = new NhanVienForm();
                 Program.nhanVienForm.MdiParent = this;
                 Program.nhanVienForm.Show();
+
+             
             }
         }
 
@@ -151,6 +155,9 @@ namespace QLVT_DATHANG
             }
         }
 
-   
+        private void statusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }

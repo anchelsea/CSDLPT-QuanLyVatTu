@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using System.Data.SqlClient;
 
+
 namespace QLVT_DATHANG
 {
     public partial class NhanVienForm : DevExpress.XtraEditors.XtraForm
@@ -38,6 +39,7 @@ namespace QLVT_DATHANG
             cbChiNhanh.ValueMember = "TENSERVER";
 
             cbChiNhanh.Enabled = false;
+            mACNTextEdit.Enabled = false;
         }
 
         public static int newMANV()
@@ -205,7 +207,16 @@ namespace QLVT_DATHANG
                             nhanVienBindingSource.Position = positionMANV;
                             pnThongBao.Visible=true;
                             lbThongBao.Text = "Thêm mới hoặc cập nhật thông tin nhân viên thành công. ";
-                           
+                            
+                            //Timer time = new Timer();
+                            //time.Start();
+                            //if (time.Tick=10)
+                            //{
+                            //    pnThongBao.Visible = false;
+                            //}
+
+
+
                         }
                         catch (Exception ex)
                         {

@@ -30,6 +30,7 @@
         {
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnThoatTTK = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.btnUser = new System.Windows.Forms.Button();
@@ -44,13 +45,19 @@
             this.label2 = new System.Windows.Forms.Label();
             this.tbLogin = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.pnThongBao = new System.Windows.Forms.Panel();
+            this.pbThongBao = new System.Windows.Forms.PictureBox();
+            this.lbThongBao = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pnThongBao.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbThongBao)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.pnThongBao);
             this.groupBox2.Controls.Add(this.panel1);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
@@ -62,6 +69,7 @@
             // panel1
             // 
             this.panel1.AutoSize = true;
+            this.panel1.Controls.Add(this.btnThoatTTK);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.btnSubmit);
             this.panel1.Controls.Add(this.btnUser);
@@ -83,6 +91,17 @@
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // btnThoatTTK
+            // 
+            this.btnThoatTTK.BackColor = System.Drawing.Color.Aqua;
+            this.btnThoatTTK.Location = new System.Drawing.Point(280, 355);
+            this.btnThoatTTK.Name = "btnThoatTTK";
+            this.btnThoatTTK.Size = new System.Drawing.Size(75, 23);
+            this.btnThoatTTK.TabIndex = 41;
+            this.btnThoatTTK.Text = "Thoát";
+            this.btnThoatTTK.UseVisualStyleBackColor = false;
+            this.btnThoatTTK.Click += new System.EventHandler(this.btnThoatTTK_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::QLVT_DATHANG.Properties.Resources.add_user__1_;
@@ -95,13 +114,14 @@
             // 
             // btnSubmit
             // 
+            this.btnSubmit.BackColor = System.Drawing.Color.Lime;
             this.btnSubmit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSubmit.Location = new System.Drawing.Point(243, 300);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(135, 49);
             this.btnSubmit.TabIndex = 39;
             this.btnSubmit.Text = "Thêm tài khoản";
-            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.UseVisualStyleBackColor = false;
             // 
             // btnUser
             // 
@@ -221,6 +241,43 @@
             this.label1.TabIndex = 27;
             this.label1.Text = "Tên đăng nhập:";
             // 
+            // pnThongBao
+            // 
+            this.pnThongBao.Controls.Add(this.pbThongBao);
+            this.pnThongBao.Controls.Add(this.lbThongBao);
+            this.pnThongBao.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnThongBao.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnThongBao.Location = new System.Drawing.Point(3, 17);
+            this.pnThongBao.Name = "pnThongBao";
+            this.pnThongBao.Size = new System.Drawing.Size(1157, 35);
+            this.pnThongBao.TabIndex = 21;
+            this.pnThongBao.Visible = false;
+            // 
+            // pbThongBao
+            // 
+            this.pbThongBao.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.pbThongBao.Image = global::QLVT_DATHANG.Properties.Resources.notification;
+            this.pbThongBao.Location = new System.Drawing.Point(274, 2);
+            this.pbThongBao.Name = "pbThongBao";
+            this.pbThongBao.Size = new System.Drawing.Size(32, 32);
+            this.pbThongBao.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbThongBao.TabIndex = 13;
+            this.pbThongBao.TabStop = false;
+            // 
+            // lbThongBao
+            // 
+            this.lbThongBao.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lbThongBao.AutoSize = true;
+            this.lbThongBao.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbThongBao.ForeColor = System.Drawing.Color.Red;
+            this.lbThongBao.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbThongBao.Location = new System.Drawing.Point(703, 9);
+            this.lbThongBao.Name = "lbThongBao";
+            this.lbThongBao.Size = new System.Drawing.Size(77, 17);
+            this.lbThongBao.TabIndex = 12;
+            this.lbThongBao.Text = "Thông báo";
+            this.lbThongBao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // ThemTaiKhoanForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -235,6 +292,9 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.pnThongBao.ResumeLayout(false);
+            this.pnThongBao.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbThongBao)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -256,5 +316,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox tbLogin;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnThoatTTK;
+        private System.Windows.Forms.Panel pnThongBao;
+        private System.Windows.Forms.PictureBox pbThongBao;
+        private System.Windows.Forms.Label lbThongBao;
     }
 }

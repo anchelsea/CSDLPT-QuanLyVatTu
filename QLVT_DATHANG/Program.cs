@@ -34,6 +34,7 @@ namespace QLVT_DATHANG
         public static String mHoten = "";
         public static string group = "";    //Để khi vào các form con biết đang ở quyền nào
 
+
        
 
         public static bool flagCloseFormNV;
@@ -55,6 +56,8 @@ namespace QLVT_DATHANG
 
         public static SubForm.NVTrungIncurredForm nVTrungIncurredForm;
         public static SubForm.ChuyenChiNhanhSubForm chuyenChiNhanhSubForm;
+
+
 
         public static int manv = 0;         //Để khi vào các form con biết mã nv là gì
 

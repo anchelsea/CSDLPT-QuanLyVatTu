@@ -63,6 +63,7 @@
             this.pnChiNhanh = new System.Windows.Forms.Panel();
             this.cbChiNhanh = new System.Windows.Forms.ComboBox();
             this.chiNhanhBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.pnThongBao = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.chiNhanhBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.nhanVienTableAdapter = new QLVT_DATHANG.QLVT_DATHANGDataSetTableAdapters.NhanVienTableAdapter();
@@ -127,7 +128,6 @@
             this.gcNhanVien = new DevExpress.XtraGrid.GridControl();
             this.qlvT_DATHANGDataSet1 = new QLVT_DATHANG.QLVT_DATHANGDataSet();
             this.qlvT_DATHANGDataSet2 = new QLVT_DATHANG.QLVT_DATHANGDataSet();
-            this.pnThongBao = new System.Windows.Forms.Panel();
             nGAYSINHLabel = new System.Windows.Forms.Label();
             hOLabel = new System.Windows.Forms.Label();
             tENLabel = new System.Windows.Forms.Label();
@@ -151,6 +151,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbThongBao)).BeginInit();
             this.pnChiNhanh.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chiNhanhBindingSource)).BeginInit();
+            this.pnThongBao.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chiNhanhBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qlvT_DATHANGDataSet_DS_NHANVIEN1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qlvT_DATHANGDataSet_DS_NHANVIEN2)).BeginInit();
@@ -163,7 +164,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.gcNhanVien)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qlvT_DATHANGDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qlvT_DATHANGDataSet2)).BeginInit();
-            this.pnThongBao.SuspendLayout();
             this.SuspendLayout();
             // 
             // nGAYSINHLabel
@@ -266,7 +266,7 @@
             this.gb_thongtinNV.Controls.Add(this.pictureBox10);
             this.gb_thongtinNV.Dock = System.Windows.Forms.DockStyle.Top;
             this.gb_thongtinNV.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gb_thongtinNV.Location = new System.Drawing.Point(0, 525);
+            this.gb_thongtinNV.Location = new System.Drawing.Point(0, 480);
             this.gb_thongtinNV.Margin = new System.Windows.Forms.Padding(4);
             this.gb_thongtinNV.Name = "gb_thongtinNV";
             this.gb_thongtinNV.Padding = new System.Windows.Forms.Padding(4);
@@ -301,6 +301,11 @@
             this.mANVNumericUpDown.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.nhanVienBindingSource, "MANV", true));
             this.mANVNumericUpDown.Location = new System.Drawing.Point(640, 18);
             this.mANVNumericUpDown.Margin = new System.Windows.Forms.Padding(4);
+            this.mANVNumericUpDown.Maximum = new decimal(new int[] {
+            999999,
+            0,
+            0,
+            0});
             this.mANVNumericUpDown.Name = "mANVNumericUpDown";
             this.mANVNumericUpDown.Size = new System.Drawing.Size(94, 23);
             this.mANVNumericUpDown.TabIndex = 25;
@@ -376,10 +381,10 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = global::QLVT_DATHANG.Properties.Resources.informant;
-            this.pictureBox10.Location = new System.Drawing.Point(389, 48);
+            this.pictureBox10.Location = new System.Drawing.Point(357, 24);
             this.pictureBox10.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(93, 94);
+            this.pictureBox10.Size = new System.Drawing.Size(100, 100);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 6;
             this.pictureBox10.TabStop = false;
@@ -388,7 +393,7 @@
             // 
             this.pbThongBao.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.pbThongBao.Image = global::QLVT_DATHANG.Properties.Resources.notification;
-            this.pbThongBao.Location = new System.Drawing.Point(270, 10);
+            this.pbThongBao.Location = new System.Drawing.Point(45, 7);
             this.pbThongBao.Name = "pbThongBao";
             this.pbThongBao.Size = new System.Drawing.Size(32, 32);
             this.pbThongBao.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -397,21 +402,22 @@
             // 
             // lbThongBao
             // 
-            this.lbThongBao.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lbThongBao.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbThongBao.AutoSize = true;
             this.lbThongBao.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbThongBao.ForeColor = System.Drawing.Color.Red;
             this.lbThongBao.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbThongBao.Location = new System.Drawing.Point(513, 15);
+            this.lbThongBao.Location = new System.Drawing.Point(100, 14);
             this.lbThongBao.Name = "lbThongBao";
-            this.lbThongBao.Size = new System.Drawing.Size(179, 17);
+            this.lbThongBao.Size = new System.Drawing.Size(77, 17);
             this.lbThongBao.TabIndex = 12;
-            this.lbThongBao.Text = "Xóa nhân viên  thành công";
+            this.lbThongBao.Text = "Thông báo";
             this.lbThongBao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pnChiNhanh
             // 
             this.pnChiNhanh.Controls.Add(this.cbChiNhanh);
+            this.pnChiNhanh.Controls.Add(this.pnThongBao);
             this.pnChiNhanh.Controls.Add(this.label1);
             this.pnChiNhanh.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnChiNhanh.Location = new System.Drawing.Point(0, 40);
@@ -427,7 +433,7 @@
             this.cbChiNhanh.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbChiNhanh.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbChiNhanh.FormattingEnabled = true;
-            this.cbChiNhanh.Location = new System.Drawing.Point(191, 8);
+            this.cbChiNhanh.Location = new System.Drawing.Point(132, 10);
             this.cbChiNhanh.Margin = new System.Windows.Forms.Padding(4);
             this.cbChiNhanh.Name = "cbChiNhanh";
             this.cbChiNhanh.Size = new System.Drawing.Size(252, 23);
@@ -439,11 +445,23 @@
             this.chiNhanhBindingSource.DataMember = "ChiNhanh";
             this.chiNhanhBindingSource.DataSource = this.qLVT_DATHANGDataSet;
             // 
+            // pnThongBao
+            // 
+            this.pnThongBao.Controls.Add(this.pbThongBao);
+            this.pnThongBao.Controls.Add(this.lbThongBao);
+            this.pnThongBao.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pnThongBao.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnThongBao.Location = new System.Drawing.Point(886, 0);
+            this.pnThongBao.Name = "pnThongBao";
+            this.pnThongBao.Size = new System.Drawing.Size(523, 40);
+            this.pnThongBao.TabIndex = 19;
+            this.pnThongBao.Visible = false;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(71, 12);
+            this.label1.Location = new System.Drawing.Point(12, 14);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(69, 14);
@@ -1153,17 +1171,6 @@
             this.qlvT_DATHANGDataSet2.DataSetName = "QLVT_DATHANGDataSet";
             this.qlvT_DATHANGDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // pnThongBao
-            // 
-            this.pnThongBao.Controls.Add(this.pbThongBao);
-            this.pnThongBao.Controls.Add(this.lbThongBao);
-            this.pnThongBao.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnThongBao.Location = new System.Drawing.Point(0, 480);
-            this.pnThongBao.Name = "pnThongBao";
-            this.pnThongBao.Size = new System.Drawing.Size(1409, 45);
-            this.pnThongBao.TabIndex = 19;
-            this.pnThongBao.Visible = false;
-            // 
             // NhanVienForm
             // 
             this.Appearance.Options.UseFont = true;
@@ -1171,7 +1178,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1409, 1068);
             this.Controls.Add(this.gb_thongtinNV);
-            this.Controls.Add(this.pnThongBao);
             this.Controls.Add(this.gcNhanVien);
             this.Controls.Add(this.pnChiNhanh);
             this.Controls.Add(this.barDockControlLeft);
@@ -1210,6 +1216,8 @@
             this.pnChiNhanh.ResumeLayout(false);
             this.pnChiNhanh.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chiNhanhBindingSource)).EndInit();
+            this.pnThongBao.ResumeLayout(false);
+            this.pnThongBao.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chiNhanhBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qlvT_DATHANGDataSet_DS_NHANVIEN1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qlvT_DATHANGDataSet_DS_NHANVIEN2)).EndInit();
@@ -1222,8 +1230,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.gcNhanVien)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qlvT_DATHANGDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qlvT_DATHANGDataSet2)).EndInit();
-            this.pnThongBao.ResumeLayout(false);
-            this.pnThongBao.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1240,7 +1246,6 @@
         private System.Windows.Forms.BindingSource chiNhanhBindingSource;
         private System.Windows.Forms.PictureBox pictureBox10;
         private QLVT_DATHANGDataSet qlvT_DATHANGDataSet_DS_NHANVIEN1;
-        private System.Windows.Forms.NumericUpDown mANVNumericUpDown;
         private DevExpress.XtraEditors.TextEdit mACNTextEdit;
         private DevExpress.XtraEditors.SpinEdit lUONGSpinEdit;
         private DevExpress.XtraEditors.TextEdit dIACHITextEdit;
@@ -1312,5 +1317,6 @@
         private QLVT_DATHANGDataSet qlvT_DATHANGDataSet1;
         private QLVT_DATHANGDataSet qlvT_DATHANGDataSet2;
         private System.Windows.Forms.Panel pnThongBao;
+        private System.Windows.Forms.NumericUpDown mANVNumericUpDown;
     }
 }

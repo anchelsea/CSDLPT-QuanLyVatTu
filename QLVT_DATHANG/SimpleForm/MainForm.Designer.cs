@@ -59,7 +59,6 @@
             this.ribbonPageGroup13 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup14 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup15 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.rbg_nhanvien = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup6 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup7 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -104,7 +103,6 @@
             this.rb_quantri,
             this.rb_baocao});
             this.ribbon.Size = new System.Drawing.Size(1606, 159);
-            this.ribbon.StatusBar = this.ribbonStatusBar;
             // 
             // barButtonItem3
             // 
@@ -400,14 +398,6 @@
             this.ribbonPageGroup15.ItemLinks.Add(this.barButtonItem14);
             this.ribbonPageGroup15.Name = "ribbonPageGroup15";
             // 
-            // ribbonStatusBar
-            // 
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 724);
-            this.ribbonStatusBar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.ribbonStatusBar.Name = "ribbonStatusBar";
-            this.ribbonStatusBar.Ribbon = this.ribbon;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(1606, 24);
-            // 
             // rbg_nhanvien
             // 
             this.rbg_nhanvien.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("rbg_nhanvien.ImageOptions.SvgImage")));
@@ -438,23 +428,25 @@
             // 
             // statusStrip1
             // 
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(25, 25);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sslMaNhanVien,
             this.sslTen,
             this.sslNhom});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 702);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 726);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 21, 0);
             this.statusStrip1.Size = new System.Drawing.Size(1606, 22);
             this.statusStrip1.TabIndex = 2;
             this.statusStrip1.Text = "statusStrip1";
+            this.statusStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.statusStrip1_ItemClicked);
             // 
             // sslMaNhanVien
             // 
             this.sslMaNhanVien.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sslMaNhanVien.Margin = new System.Windows.Forms.Padding(10, 3, 0, 2);
             this.sslMaNhanVien.Name = "sslMaNhanVien";
-            this.sslMaNhanVien.Size = new System.Drawing.Size(48, 17);
+            this.sslMaNhanVien.Size = new System.Drawing.Size(48, 26);
             this.sslMaNhanVien.Text = "MANV";
             // 
             // sslTen
@@ -462,7 +454,7 @@
             this.sslTen.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sslTen.Margin = new System.Windows.Forms.Padding(10, 3, 0, 2);
             this.sslTen.Name = "sslTen";
-            this.sslTen.Size = new System.Drawing.Size(33, 17);
+            this.sslTen.Size = new System.Drawing.Size(33, 26);
             this.sslTen.Text = "TEN";
             // 
             // sslNhom
@@ -470,7 +462,7 @@
             this.sslNhom.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sslNhom.Margin = new System.Windows.Forms.Padding(10, 3, 0, 2);
             this.sslNhom.Name = "sslNhom";
-            this.sslNhom.Size = new System.Drawing.Size(50, 17);
+            this.sslNhom.Size = new System.Drawing.Size(50, 26);
             this.sslNhom.Text = "NHOM";
             // 
             // barButtonItem15
@@ -495,7 +487,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1606, 748);
             this.Controls.Add(this.statusStrip1);
-            this.Controls.Add(this.ribbonStatusBar);
             this.Controls.Add(this.ribbon);
             this.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IconOptions.Image = global::QLVT_DATHANG.Properties.Resources.inventor;
@@ -504,7 +495,6 @@
             this.Name = "frmMain";
             this.Ribbon = this.ribbon;
             this.RightToLeftLayout = true;
-            this.StatusBar = this.ribbonStatusBar;
             this.Text = "QUẢN LÝ VẬT TƯ";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMain_FormClosing);
@@ -523,7 +513,6 @@
         private DevExpress.XtraBars.Ribbon.RibbonControl ribbon;
         private DevExpress.XtraBars.Ribbon.RibbonPage rb_quantri;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup1;
-        private DevExpress.XtraBars.Ribbon.RibbonStatusBar ribbonStatusBar;
         private DevExpress.XtraBars.Ribbon.RibbonPage rb_baocao;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;

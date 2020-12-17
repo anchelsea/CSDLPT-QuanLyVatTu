@@ -27,5 +27,10 @@ namespace QLVT_DATHANG
         {
 
         }
+
+        private void btnThoatTTK_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
