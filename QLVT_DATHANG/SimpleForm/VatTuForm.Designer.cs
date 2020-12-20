@@ -96,7 +96,7 @@
             mAVTLabel.AutoSize = true;
             mAVTLabel.Location = new System.Drawing.Point(761, 48);
             mAVTLabel.Name = "mAVTLabel";
-            mAVTLabel.Size = new System.Drawing.Size(67, 16);
+            mAVTLabel.Size = new System.Drawing.Size(78, 18);
             mAVTLabel.TabIndex = 7;
             mAVTLabel.Text = "Mã vật tư:";
             // 
@@ -105,7 +105,7 @@
             tENVTLabel.AutoSize = true;
             tENVTLabel.Location = new System.Drawing.Point(1003, 48);
             tENVTLabel.Name = "tENVTLabel";
-            tENVTLabel.Size = new System.Drawing.Size(72, 16);
+            tENVTLabel.Size = new System.Drawing.Size(84, 18);
             tENVTLabel.TabIndex = 8;
             tENVTLabel.Text = "Tên vật tư:";
             // 
@@ -114,7 +114,7 @@
             dVTLabel.AutoSize = true;
             dVTLabel.Location = new System.Drawing.Point(759, 98);
             dVTLabel.Name = "dVTLabel";
-            dVTLabel.Size = new System.Drawing.Size(74, 16);
+            dVTLabel.Size = new System.Drawing.Size(82, 18);
             dVTLabel.TabIndex = 9;
             dVTLabel.Text = "Đơn vị tính:";
             // 
@@ -123,7 +123,7 @@
             sOLUONGTONLabel.AutoSize = true;
             sOLUONGTONLabel.Location = new System.Drawing.Point(1000, 100);
             sOLUONGTONLabel.Name = "sOLUONGTONLabel";
-            sOLUONGTONLabel.Size = new System.Drawing.Size(86, 16);
+            sOLUONGTONLabel.Size = new System.Drawing.Size(95, 18);
             sOLUONGTONLabel.TabIndex = 10;
             sOLUONGTONLabel.Text = "Số lượng tồn:";
             // 
@@ -337,8 +337,8 @@
             this.gbChiTietVT.Controls.Add(this.mAVTTextEdit);
             this.gbChiTietVT.Controls.Add(this.pictureBox10);
             this.gbChiTietVT.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gbChiTietVT.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbChiTietVT.Location = new System.Drawing.Point(0, 366);
+            this.gbChiTietVT.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbChiTietVT.Location = new System.Drawing.Point(0, 475);
             this.gbChiTietVT.Name = "gbChiTietVT";
             this.gbChiTietVT.Size = new System.Drawing.Size(1345, 182);
             this.gbChiTietVT.TabIndex = 6;
@@ -355,7 +355,7 @@
             0,
             0});
             this.sOLUONGTONNumericUpDown1.Name = "sOLUONGTONNumericUpDown1";
-            this.sOLUONGTONNumericUpDown1.Size = new System.Drawing.Size(153, 23);
+            this.sOLUONGTONNumericUpDown1.Size = new System.Drawing.Size(153, 26);
             this.sOLUONGTONNumericUpDown1.TabIndex = 11;
             this.sOLUONGTONNumericUpDown1.ThousandsSeparator = true;
             // 
@@ -365,7 +365,9 @@
             this.dVTTextEdit.Location = new System.Drawing.Point(850, 99);
             this.dVTTextEdit.MenuManager = this.barManager1;
             this.dVTTextEdit.Name = "dVTTextEdit";
-            this.dVTTextEdit.Size = new System.Drawing.Size(117, 20);
+            this.dVTTextEdit.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dVTTextEdit.Properties.Appearance.Options.UseFont = true;
+            this.dVTTextEdit.Size = new System.Drawing.Size(117, 22);
             this.dVTTextEdit.TabIndex = 10;
             // 
             // tENVTTextEdit
@@ -374,7 +376,9 @@
             this.tENVTTextEdit.Location = new System.Drawing.Point(1092, 44);
             this.tENVTTextEdit.MenuManager = this.barManager1;
             this.tENVTTextEdit.Name = "tENVTTextEdit";
-            this.tENVTTextEdit.Size = new System.Drawing.Size(153, 20);
+            this.tENVTTextEdit.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tENVTTextEdit.Properties.Appearance.Options.UseFont = true;
+            this.tENVTTextEdit.Size = new System.Drawing.Size(153, 22);
             this.tENVTTextEdit.TabIndex = 9;
             // 
             // mAVTTextEdit
@@ -383,7 +387,9 @@
             this.mAVTTextEdit.Location = new System.Drawing.Point(850, 45);
             this.mAVTTextEdit.MenuManager = this.barManager1;
             this.mAVTTextEdit.Name = "mAVTTextEdit";
-            this.mAVTTextEdit.Size = new System.Drawing.Size(117, 20);
+            this.mAVTTextEdit.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mAVTTextEdit.Properties.Appearance.Options.UseFont = true;
+            this.mAVTTextEdit.Size = new System.Drawing.Size(117, 22);
             this.mAVTTextEdit.TabIndex = 8;
             // 
             // pictureBox10
@@ -392,7 +398,7 @@
             this.pictureBox10.Location = new System.Drawing.Point(604, 24);
             this.pictureBox10.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(108, 115);
+            this.pictureBox10.Size = new System.Drawing.Size(125, 125);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 7;
             this.pictureBox10.TabStop = false;
@@ -452,7 +458,7 @@
             this.vattuGridControl.MainView = this.gridView1;
             this.vattuGridControl.MenuManager = this.barManager1;
             this.vattuGridControl.Name = "vattuGridControl";
-            this.vattuGridControl.Size = new System.Drawing.Size(1345, 291);
+            this.vattuGridControl.Size = new System.Drawing.Size(1345, 400);
             this.vattuGridControl.TabIndex = 33;
             this.vattuGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -461,6 +467,10 @@
             // 
             this.gridView1.Appearance.FocusedRow.BackColor = System.Drawing.Color.Lime;
             this.gridView1.Appearance.FocusedRow.Options.UseBackColor = true;
+            this.gridView1.Appearance.GroupRow.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridView1.Appearance.GroupRow.Options.UseFont = true;
+            this.gridView1.Appearance.Row.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridView1.Appearance.Row.Options.UseFont = true;
             this.gridView1.Appearance.Row.Options.UseTextOptions = true;
             this.gridView1.Appearance.Row.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {

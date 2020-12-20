@@ -9,6 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using System.Data.SqlClient;
+using DevExpress.XtraEditors.Events;
+using DevExpress.XtraGrid.Views.Grid;
+using DevExpress.XtraGrid.Menu;
+using DevExpress.Utils.Menu;
 
 
 namespace QLVT_DATHANG
@@ -26,12 +30,43 @@ namespace QLVT_DATHANG
 
         private void NhanVienForm_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'qLVT_DATHANGDataSet.CTPX' table. You can move, or remove it, as needed.
+            this.cTPXTableAdapter.Fill(this.qLVT_DATHANGDataSet.CTPX);
+            // TODO: This line of code loads data into the 'qLVT_DATHANGDataSet.PhieuXuat' table. You can move, or remove it, as needed.
+            this.phieuXuatTableAdapter.Fill(this.qLVT_DATHANGDataSet.PhieuXuat);
+            // TODO: This line of code loads data into the 'qLVT_DATHANGDataSet.CTPN' table. You can move, or remove it, as needed.
+            this.cTPNTableAdapter.Fill(this.qLVT_DATHANGDataSet.CTPN);
+            // TODO: This line of code loads data into the 'qLVT_DATHANGDataSet.PhieuNhap' table. You can move, or remove it, as needed.
+            this.phieuNhapTableAdapter.Fill(this.qLVT_DATHANGDataSet.PhieuNhap);
+            // TODO: This line of code loads data into the 'qLVT_DATHANGDataSet.CTDDH' table. You can move, or remove it, as needed.
+            this.cTDDHTableAdapter.Fill(this.qLVT_DATHANGDataSet.CTDDH);
+            // TODO: This line of code loads data into the 'qLVT_DATHANGDataSet.DatHang' table. You can move, or remove it, as needed.
+            this.datHangTableAdapter.Fill(this.qLVT_DATHANGDataSet.DatHang);
             // TODO: This line of code loads data into the 'qLVT_DATHANGDataSet_DS_NHANVIEN.ChiNhanh' table. You can move, or remove it, as needed.
             this.chiNhanhTableAdapter.Fill(this.qLVT_DATHANGDataSet.ChiNhanh);
             // TODO: This line of code loads data into the 'qLVT_DATHANGDataSet_DS_NHANVIEN.NhanVien' table. You can move, or remove it, as needed.
             this.nhanVienTableAdapter.Connection.ConnectionString = Program.connstr;
             this.nhanVienTableAdapter.Fill(this.qLVT_DATHANGDataSet.NhanVien);
 
+            //Cấu hình Default chiều cao của các panel =))
+            gb_thongtinNV.Height = 270;
+            gbDonDatHang.Height = 350;
+            gbPhieuNhap.Height = 350;
+            gbPhieuXuat.Height = 350;
+            gcNhanVien.Height = 345;
+            //Tắt các panel của PhieuNhap - PhieuXuat - DatHang trước
+            gbDonDatHang.Visible = gbPhieuNhap.Visible = gbPhieuXuat.Visible = false;
+
+            if (Program.group == "CONGTY")
+            {
+                btnThem.Links[0].Visible = btnXoa.Links[0].Visible = btnLuu.Links[0].Visible = false;
+                btnChuyenCN.Links[0].Visible = btnUndo.Links[0].Visible = false;
+            }
+      
+            else if (Program.group == "USER")
+            {
+                 btnChuyenCN.Links[0].Visible = false;
+            }
 
 
             this.cbChiNhanh.DataSource = Program.bds_dspm; //DataSource của cbChiNhanh tham chiếu đến bindingSource ở LoginForm
@@ -103,6 +138,7 @@ namespace QLVT_DATHANG
         //Button
         private void btnThem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
+            switchPanel("Thông tin", Properties.Resources.business__1_, gb_thongtinNV);
             position = nhanVienBindingSource.Position;
             this.nhanVienBindingSource.AddNew();
             //Giá trị mặc định khi Thêm NV
@@ -362,7 +398,7 @@ namespace QLVT_DATHANG
         private void btnUndo_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             btnThem.Enabled = btnXoa.Enabled = gcNhanVien.Enabled = btnLuu.Enabled = true;
-            btnRefresh.Enabled = btnChuyenCN.Enabled  = btnSubNhapXuat.Enabled = true;
+            btnRefresh.Enabled = btnChuyenCN.Enabled  = btnSwitchPanel.Enabled = true;
             btnUndo.Enabled  = false;
             Program.flagCloseFormNV = true; //Undo lại thì cho phép thoát mà ko kiểm tra dữ liệu
             nhanVienBindingSource.CancelEdit();
@@ -387,14 +423,205 @@ namespace QLVT_DATHANG
             this.Close();
         }
 
-        private void lUONGSpinEdit_EditValueChanged(object sender, EventArgs e)
-        {
 
+
+        private void btnDDH_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            switchPanel("Đặt hàng", Properties.Resources.inventory__3_, gbDonDatHang);
+            //Đồng thời cho con trỏ chuột về đúng vị trí NV đang login
+            nhanVienBindingSource.Position = nhanVienBindingSource.Find("MANV", Program.manv);
         }
 
-        private void tENTextEdit_EditValueChanged(object sender, EventArgs e)
-        {
 
+        // SWITCH PANEL
+        private void btnInfo_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            switchPanel("Thông tin", Properties.Resources.business__1_, gb_thongtinNV);
         }
+
+
+        private void btnPhieuNhap_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            switchPanel("Phiếu nhập", Properties.Resources.packing_list, gbPhieuNhap);
+            //Đồng thời cho con trỏ chuột về đúng vị trí NV đang login
+            nhanVienBindingSource.Position = nhanVienBindingSource.Find("MANV", Program.manv);
+        }
+
+        private void btnPhieuXuat_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            switchPanel("Phiếu Xuất", Properties.Resources.export, gbPhieuXuat);
+            //Đồng thời cho con trỏ chuột về đúng vị trí NV đang login
+            nhanVienBindingSource.Position = nhanVienBindingSource.Find("MANV", Program.manv);
+        }
+
+
+        private void switchPanel(string caption, Bitmap image, GroupBox groupBox)
+        {
+            btnSwitchPanel.Links[0].Caption = caption;
+            btnSwitchPanel.Links[0].ImageOptions.Image = image;
+            gb_thongtinNV.Visible = false;
+            gbDonDatHang.Visible = false;
+            gbPhieuNhap.Visible = false;
+            gbPhieuXuat.Visible = false;
+            groupBox.Visible = true;
+        }
+
+        //DDH
+        private void gvDDH_PopupMenuShowing(object sender, DevExpress.XtraGrid.Views.Grid.PopupMenuShowingEventArgs e)
+        {
+            if (Program.group == "CHINHANH" || Program.group == "USER")
+            {
+                int maNVLapDDH = 0;
+                if (gvDDH.GetRowCellValue(datHangBindingSource.Position, "MANV") != null)
+                {
+                    maNVLapDDH = int.Parse(gvDDH.GetRowCellValue(datHangBindingSource.Position, "MANV").ToString().Trim());
+                }
+                if (e.MenuType == GridMenuType.Row)
+                {
+                    GridViewMenu menu = e.Menu;
+                    DXMenuItem menuAddDDH = createMenuItem("Thêm DDH", Properties.Resources.plus);
+                    menuAddDDH.Click += new EventHandler(menuAddDDH_Click);
+                    menu.Items.Add(menuAddDDH);
+
+                    if (maNVLapDDH == Program.manv)
+                    {
+                        DXMenuItem menuAddCTDDH = createMenuItem("Thêm chi tiết DDH", Properties.Resources.inventory__3_);
+                        menuAddCTDDH.Click += new EventHandler(menuAddChiTietDDH_Click);
+                        menu.Items.Add(menuAddCTDDH);
+                    }
+                    DXMenuItem menuAddPN = createMenuItem("Thêm Phiếu Nhập", Properties.Resources.packing_list);
+                    menuAddPN.Click += new EventHandler(menuAddPN_Click);
+                    menu.Items.Add(menuAddPN);
+                }
+            }
+        }
+
+        private void menuAddDDH_Click(object sender, EventArgs e)   //MenuItem của PopupMenu
+        {
+            Program.dDHSubForm = new SubForm.DDHSubForm();
+            Program.dDHSubForm.Show();
+
+           
+            Program.nhanVienForm.Enabled = false;
+            nhanVienBindingSource.Position = nhanVienBindingSource.Find("MANV", Program.manv);
+        }
+
+
+        //CHI TIET DDH
+
+        private void gvCTDDH_PopupMenuShowing(object sender, DevExpress.XtraGrid.Views.Grid.PopupMenuShowingEventArgs e)
+        {
+            if (Program.group == "CHINHANH" || Program.group == "USER")
+            {
+                if (e.MenuType == GridMenuType.Row && kiemTraCTDDHCuaNV())
+                {
+                    GridViewMenu menu = e.Menu;
+                    DXMenuItem menuAddChiTietDDH = createMenuItem("Thêm chi tiết DDH", Properties.Resources.plus);
+                    menuAddChiTietDDH.Click += new EventHandler(menuAddChiTietDDH_Click);
+                    menu.Items.Add(menuAddChiTietDDH);
+                }
+            }
+        }
+
+        private void menuAddChiTietDDH_Click(object sender, EventArgs e)//MenuItem của PopupMenu
+        {
+            Program.cTDDHSubForm = new SubForm.CTDDHSubForm();
+            Program.cTDDHSubForm.Show();
+            Program.nhanVienForm.Enabled = false;
+        }
+
+        private bool kiemTraCTDDHCuaNV()
+        {
+            int maNVLapDDH = 0;
+            if (gvDDH.GetRowCellValue(datHangBindingSource.Position, "MANV") != null)
+            {
+                maNVLapDDH = int.Parse(gvDDH.GetRowCellValue(datHangBindingSource.Position, "MANV").ToString().Trim());
+            }
+            return (maNVLapDDH == Program.manv);
+        }
+
+        private void menuAddPN_Click(object sender, EventArgs e)
+        {
+            if (phieuNhapBindingSource.Count > 0)
+            {
+                MessageBox.Show("Đơn đặt hàng này đã được lập Phiếu Nhập!", "Thông báo",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            Program.phieuNhapSubForm = new SubForm.PhieuNhapSubForm();
+            Program.phieuNhapSubForm.Show();
+            Program.frmMain.Enabled = false;
+        }
+
+
+
+        private DXMenuItem createMenuItem(string caption, Bitmap image)
+        {
+            DXMenuItem menuItem = new DXMenuItem();
+            menuItem.Image = image;
+            menuItem.Caption = caption;
+            return menuItem;
+        }
+
+
+        //Phieu nhap
+        private void gvDatHangByPN_PopupMenuShowing(object sender, DevExpress.XtraGrid.Views.Grid.PopupMenuShowingEventArgs e)
+        {
+            if (Program.group == "CHINHANH" || Program.group == "USER")
+            {
+                if (datHangBindingSource.Count != 0)
+                {
+                    GridViewMenu menu = e.Menu;
+                    DXMenuItem menuAddPN = createMenuItem("Thêm Phiếu Nhập", Properties.Resources.plus);
+                    menuAddPN.Click += new EventHandler(menuAddPN_Click);
+                    menu.Items.Add(menuAddPN);
+                }
+            }
+        }
+        private void gvPhieuNhap_PopupMenuShowing(object sender, DevExpress.XtraGrid.Views.Grid.PopupMenuShowingEventArgs e)
+        {
+            {
+                int maNVLapPN = 0;
+                if (gvPN.GetRowCellValue(phieuNhapBindingSource.Position, "MANV") != null)
+                {
+                    maNVLapPN = int.Parse(gvPN.GetRowCellValue(phieuNhapBindingSource.Position, "MANV").ToString().Trim());
+                }
+                if (e.MenuType == GridMenuType.Row && maNVLapPN == Program.manv)
+                {
+                    GridViewMenu menu = e.Menu;
+                    DXMenuItem menuAddCTPN = createMenuItem("Thêm chi tiết Phiếu Nhập", Properties.Resources.plus);
+                    menuAddCTPN.Click += new EventHandler(menuAddCTPN_Click);
+                    menu.Items.Add(menuAddCTPN);
+                }
+            }
+        }
+
+        private void menuAddCTPN_Click(object sender, EventArgs e)
+        {
+            if (cTDDHBindingSource.Count == 0)
+            {
+                MessageBox.Show("Đơn Đặt hàng của Phiếu Nhập này chưa có Chi Tiết Đơn Đặt Hàng!", "Thông báo",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            else if (cTDDHBindingSource.Count == cTDDHBindingSource.Count)
+            {
+                MessageBox.Show("Đơn đặt hàng này đã lập đủ Chi Tiết Phiếu Nhập!", "Thông báo",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            Program.phieuNhapSubForm = new SubForm.PhieuNhapSubForm();
+            Program.phieuNhapSubForm.Show();
+            Program.nhanVienForm.Enabled = false;
+        }
+
+        private void smiAddPN_Click(object sender, EventArgs e)
+        {
+            Program.phieuNhapSubForm = new SubForm.PhieuNhapSubForm();
+            Program.phieuNhapSubForm.Show();
+            Program.nhanVienForm.Enabled = false;
+        }
+
+    
     }
 }

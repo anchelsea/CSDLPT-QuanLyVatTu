@@ -32,5 +32,10 @@ namespace QLVT_DATHANG.SubForm
             this.cTDDHTableAdapter.Fill(this.qLVT_DATHANGDataSet.CTDDH);
 
         }
+
+        private void btnOK_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

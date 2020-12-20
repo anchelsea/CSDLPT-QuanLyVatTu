@@ -32,5 +32,63 @@ namespace QLVT_DATHANG.SubForm
             this.vattuTableAdapter.Fill(this.qLVT_DATHANGDataSet.Vattu);
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Program.nhanVienForm.Enabled = true;
+        }
+
+        private void btnOK_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Program.nhanVienForm.Enabled = true;
+        }
+
+        private void nuDonGia_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dONGIALabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sOLUONGLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nuSoLuong_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbMaVT_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mAVTLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void masoDDHLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbMasoDDH_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnOK_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+            Program.nhanVienForm.Enabled = true;
+        }
     }
 }

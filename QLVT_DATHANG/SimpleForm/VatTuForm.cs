@@ -156,7 +156,7 @@ namespace QLVT_DATHANG
                         {
                             Program.flagCloseFormVT = true; //Bật cờ cho phép tắt Form NV
                             btnThem.Enabled = btnXoa.Enabled = vattuGridControl.Enabled = btnRefresh.Enabled = true;
-                            btnUndo.Enabled = btnLuu.Enabled = false;
+                            //btnUndo.Enabled = btnLuu.Enabled = false;
                             this.vattuBindingSource.EndEdit();
                             this.vattuTableAdapter.Update(this.qLVT_DATHANGDataSet.Vattu);
                             vattuBindingSource.Position = position;

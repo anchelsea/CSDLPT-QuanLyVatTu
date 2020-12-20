@@ -32,58 +32,61 @@
             System.Windows.Forms.Label mAKHOLabel;
             System.Windows.Forms.Label nhaCCLabel;
             System.Windows.Forms.Label masoDDHLabel;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DDHSubForm));
             this.qLVT_DATHANGDataSet = new QLVT_DATHANG.QLVT_DATHANGDataSet();
             this.khoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.khoTableAdapter = new QLVT_DATHANG.QLVT_DATHANGDataSetTableAdapters.KhoTableAdapter();
             this.tableAdapterManager = new QLVT_DATHANG.QLVT_DATHANGDataSetTableAdapters.TableAdapterManager();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.tbMaKho = new System.Windows.Forms.TextBox();
+            this.tbNCC = new System.Windows.Forms.TextBox();
+            this.tbMaDDH = new System.Windows.Forms.TextBox();
+            this.btnOk = new System.Windows.Forms.Button();
             this.khoGridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colMAKHO = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTENKHO = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colDIACHI = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colMACN = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colrowguid = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.tbMaKho = new System.Windows.Forms.TextBox();
-            this.tbNCC = new System.Windows.Forms.TextBox();
-            this.tbMaDDH = new System.Windows.Forms.TextBox();
-            this.btnOk = new System.Windows.Forms.Button();
             mAKHOLabel = new System.Windows.Forms.Label();
             nhaCCLabel = new System.Windows.Forms.Label();
             masoDDHLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.qLVT_DATHANGDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.khoBindingSource)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.khoGridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // mAKHOLabel
             // 
             mAKHOLabel.AutoSize = true;
-            mAKHOLabel.Location = new System.Drawing.Point(79, 180);
+            mAKHOLabel.Location = new System.Drawing.Point(33, 255);
             mAKHOLabel.Name = "mAKHOLabel";
-            mAKHOLabel.Size = new System.Drawing.Size(46, 13);
+            mAKHOLabel.Size = new System.Drawing.Size(55, 16);
             mAKHOLabel.TabIndex = 23;
             mAKHOLabel.Text = "Mã Kho:";
             // 
             // nhaCCLabel
             // 
             nhaCCLabel.AutoSize = true;
-            nhaCCLabel.Location = new System.Drawing.Point(49, 135);
+            nhaCCLabel.Location = new System.Drawing.Point(3, 210);
             nhaCCLabel.Name = "nhaCCLabel";
-            nhaCCLabel.Size = new System.Drawing.Size(76, 13);
+            nhaCCLabel.Size = new System.Drawing.Size(90, 16);
             nhaCCLabel.TabIndex = 20;
             nhaCCLabel.Text = "Nhà cung cấp:";
             // 
             // masoDDHLabel
             // 
             masoDDHLabel.AutoSize = true;
-            masoDDHLabel.Location = new System.Drawing.Point(76, 90);
+            masoDDHLabel.Location = new System.Drawing.Point(30, 165);
             masoDDHLabel.Name = "masoDDHLabel";
-            masoDDHLabel.Size = new System.Drawing.Size(49, 13);
+            masoDDHLabel.Size = new System.Drawing.Size(60, 16);
             masoDDHLabel.TabIndex = 19;
-            masoDDHLabel.Text = "Mã DDH:";
+            masoDDHLabel.Text = "Mã ĐĐH:";
             // 
             // qLVT_DATHANGDataSet
             // 
@@ -114,66 +117,10 @@
             this.tableAdapterManager.UpdateOrder = QLVT_DATHANG.QLVT_DATHANGDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             this.tableAdapterManager.VattuTableAdapter = null;
             // 
-            // khoGridControl
-            // 
-            this.khoGridControl.DataSource = this.khoBindingSource;
-            this.khoGridControl.Location = new System.Drawing.Point(459, 70);
-            this.khoGridControl.MainView = this.gridView1;
-            this.khoGridControl.Name = "khoGridControl";
-            this.khoGridControl.Size = new System.Drawing.Size(362, 329);
-            this.khoGridControl.TabIndex = 1;
-            this.khoGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
-            // 
-            // gridView1
-            // 
-            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.colMAKHO,
-            this.colTENKHO,
-            this.colDIACHI,
-            this.colMACN,
-            this.colrowguid});
-            this.gridView1.GridControl = this.khoGridControl;
-            this.gridView1.Name = "gridView1";
-            this.gridView1.OptionsView.ShowGroupPanel = false;
-            this.gridView1.OptionsView.ShowViewCaption = true;
-            this.gridView1.ViewCaption = "Kho";
-            // 
-            // colMAKHO
-            // 
-            this.colMAKHO.FieldName = "MAKHO";
-            this.colMAKHO.Name = "colMAKHO";
-            this.colMAKHO.Visible = true;
-            this.colMAKHO.VisibleIndex = 0;
-            // 
-            // colTENKHO
-            // 
-            this.colTENKHO.FieldName = "TENKHO";
-            this.colTENKHO.Name = "colTENKHO";
-            this.colTENKHO.Visible = true;
-            this.colTENKHO.VisibleIndex = 1;
-            // 
-            // colDIACHI
-            // 
-            this.colDIACHI.FieldName = "DIACHI";
-            this.colDIACHI.Name = "colDIACHI";
-            this.colDIACHI.Visible = true;
-            this.colDIACHI.VisibleIndex = 2;
-            // 
-            // colMACN
-            // 
-            this.colMACN.FieldName = "MACN";
-            this.colMACN.Name = "colMACN";
-            this.colMACN.Visible = true;
-            this.colMACN.VisibleIndex = 3;
-            // 
-            // colrowguid
-            // 
-            this.colrowguid.FieldName = "rowguid";
-            this.colrowguid.Name = "colrowguid";
-            // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Controls.Add(mAKHOLabel);
             this.groupBox1.Controls.Add(this.tbMaKho);
             this.groupBox1.Controls.Add(nhaCCLabel);
@@ -181,60 +128,182 @@
             this.groupBox1.Controls.Add(masoDDHLabel);
             this.groupBox1.Controls.Add(this.tbMaDDH);
             this.groupBox1.Controls.Add(this.btnOk);
-            this.groupBox1.Location = new System.Drawing.Point(45, 70);
+            this.groupBox1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(12, 31);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(364, 329);
+            this.groupBox1.Size = new System.Drawing.Size(341, 357);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Thêm đơn đặt hàng";
+            // 
+            // button1
+            // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(242, 304);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(74, 25);
+            this.button1.TabIndex = 26;
+            this.button1.Text = "Thoát";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(143, 31);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 25;
+            this.pictureBox1.TabStop = false;
             // 
             // tbMaKho
             // 
             this.tbMaKho.Enabled = false;
-            this.tbMaKho.Location = new System.Drawing.Point(131, 177);
+            this.tbMaKho.Location = new System.Drawing.Point(131, 252);
             this.tbMaKho.Name = "tbMaKho";
-            this.tbMaKho.Size = new System.Drawing.Size(185, 21);
+            this.tbMaKho.Size = new System.Drawing.Size(185, 23);
             this.tbMaKho.TabIndex = 24;
             // 
             // tbNCC
             // 
-            this.tbNCC.Location = new System.Drawing.Point(131, 132);
+            this.tbNCC.Location = new System.Drawing.Point(131, 207);
             this.tbNCC.Name = "tbNCC";
-            this.tbNCC.Size = new System.Drawing.Size(185, 21);
+            this.tbNCC.Size = new System.Drawing.Size(185, 23);
             this.tbNCC.TabIndex = 22;
             // 
             // tbMaDDH
             // 
-            this.tbMaDDH.Location = new System.Drawing.Point(131, 87);
+            this.tbMaDDH.Location = new System.Drawing.Point(131, 162);
             this.tbMaDDH.Name = "tbMaDDH";
-            this.tbMaDDH.Size = new System.Drawing.Size(185, 21);
+            this.tbMaDDH.Size = new System.Drawing.Size(185, 23);
             this.tbMaDDH.TabIndex = 21;
             // 
             // btnOk
             // 
             this.btnOk.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnOk.Location = new System.Drawing.Point(226, 217);
+            this.btnOk.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOk.Location = new System.Drawing.Point(131, 304);
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(90, 25);
             this.btnOk.TabIndex = 18;
             this.btnOk.Text = "OK";
             this.btnOk.UseVisualStyleBackColor = true;
             // 
+            // khoGridControl
+            // 
+            this.khoGridControl.DataSource = this.khoBindingSource;
+            this.khoGridControl.Location = new System.Drawing.Point(381, 22);
+            this.khoGridControl.MainView = this.gridView1;
+            this.khoGridControl.Name = "khoGridControl";
+            this.khoGridControl.Size = new System.Drawing.Size(473, 366);
+            this.khoGridControl.TabIndex = 28;
+            this.khoGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView1});
+            // 
+            // gridView1
+            // 
+            this.gridView1.Appearance.FocusedRow.BackColor = System.Drawing.Color.Lime;
+            this.gridView1.Appearance.FocusedRow.Options.UseBackColor = true;
+            this.gridView1.Appearance.Row.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridView1.Appearance.Row.Options.UseFont = true;
+            this.gridView1.Appearance.Row.Options.UseTextOptions = true;
+            this.gridView1.Appearance.Row.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colMAKHO,
+            this.colTENKHO,
+            this.colDIACHI,
+            this.colMACN});
+            this.gridView1.GridControl = this.khoGridControl;
+            this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
+            this.gridView1.OptionsView.ShowViewCaption = true;
+            this.gridView1.ViewCaption = "DANH SÁCH KHO";
+            // 
+            // colMAKHO
+            // 
+            this.colMAKHO.AppearanceHeader.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.colMAKHO.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colMAKHO.AppearanceHeader.Options.UseBackColor = true;
+            this.colMAKHO.AppearanceHeader.Options.UseFont = true;
+            this.colMAKHO.AppearanceHeader.Options.UseTextOptions = true;
+            this.colMAKHO.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.colMAKHO.Caption = "Mã kho";
+            this.colMAKHO.FieldName = "MAKHO";
+            this.colMAKHO.Name = "colMAKHO";
+            this.colMAKHO.OptionsColumn.AllowEdit = false;
+            this.colMAKHO.OptionsColumn.AllowFocus = false;
+            this.colMAKHO.Visible = true;
+            this.colMAKHO.VisibleIndex = 0;
+            // 
+            // colTENKHO
+            // 
+            this.colTENKHO.AppearanceHeader.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.colTENKHO.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colTENKHO.AppearanceHeader.Options.UseBackColor = true;
+            this.colTENKHO.AppearanceHeader.Options.UseFont = true;
+            this.colTENKHO.AppearanceHeader.Options.UseTextOptions = true;
+            this.colTENKHO.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.colTENKHO.Caption = "Tên kho";
+            this.colTENKHO.FieldName = "TENKHO";
+            this.colTENKHO.Name = "colTENKHO";
+            this.colTENKHO.OptionsColumn.AllowEdit = false;
+            this.colTENKHO.OptionsColumn.AllowFocus = false;
+            this.colTENKHO.Visible = true;
+            this.colTENKHO.VisibleIndex = 1;
+            // 
+            // colDIACHI
+            // 
+            this.colDIACHI.AppearanceHeader.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.colDIACHI.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colDIACHI.AppearanceHeader.Options.UseBackColor = true;
+            this.colDIACHI.AppearanceHeader.Options.UseFont = true;
+            this.colDIACHI.AppearanceHeader.Options.UseTextOptions = true;
+            this.colDIACHI.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.colDIACHI.Caption = "Địa chỉ";
+            this.colDIACHI.FieldName = "DIACHI";
+            this.colDIACHI.Name = "colDIACHI";
+            this.colDIACHI.OptionsColumn.AllowEdit = false;
+            this.colDIACHI.OptionsColumn.AllowFocus = false;
+            this.colDIACHI.Visible = true;
+            this.colDIACHI.VisibleIndex = 2;
+            // 
+            // colMACN
+            // 
+            this.colMACN.AppearanceHeader.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.colMACN.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colMACN.AppearanceHeader.Options.UseBackColor = true;
+            this.colMACN.AppearanceHeader.Options.UseFont = true;
+            this.colMACN.AppearanceHeader.Options.UseTextOptions = true;
+            this.colMACN.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.colMACN.Caption = "Mã chi nhánh";
+            this.colMACN.FieldName = "MACN";
+            this.colMACN.Name = "colMACN";
+            this.colMACN.OptionsColumn.AllowEdit = false;
+            this.colMACN.OptionsColumn.AllowFocus = false;
+            this.colMACN.Visible = true;
+            this.colMACN.VisibleIndex = 3;
+            // 
             // DDHSubForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(841, 504);
-            this.Controls.Add(this.groupBox1);
+            this.ClientSize = new System.Drawing.Size(866, 400);
             this.Controls.Add(this.khoGridControl);
+            this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DDHSubForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thêm đơn đặt hàng";
             this.Load += new System.EventHandler(this.DDHSubForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.qLVT_DATHANGDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.khoBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.khoGridControl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.khoGridControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -245,17 +314,18 @@
         private System.Windows.Forms.BindingSource khoBindingSource;
         private QLVT_DATHANGDataSetTableAdapters.KhoTableAdapter khoTableAdapter;
         private QLVT_DATHANGDataSetTableAdapters.TableAdapterManager tableAdapterManager;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox tbMaKho;
+        private System.Windows.Forms.TextBox tbNCC;
+        private System.Windows.Forms.TextBox tbMaDDH;
+        private System.Windows.Forms.Button btnOk;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private DevExpress.XtraGrid.GridControl khoGridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn colMAKHO;
         private DevExpress.XtraGrid.Columns.GridColumn colTENKHO;
         private DevExpress.XtraGrid.Columns.GridColumn colDIACHI;
         private DevExpress.XtraGrid.Columns.GridColumn colMACN;
-        private DevExpress.XtraGrid.Columns.GridColumn colrowguid;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox tbMaKho;
-        private System.Windows.Forms.TextBox tbNCC;
-        private System.Windows.Forms.TextBox tbMaDDH;
-        private System.Windows.Forms.Button btnOk;
+        private System.Windows.Forms.Button button1;
     }
 }

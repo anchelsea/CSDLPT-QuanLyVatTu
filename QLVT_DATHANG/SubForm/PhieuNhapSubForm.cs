@@ -17,5 +17,10 @@ namespace QLVT_DATHANG.SubForm
         {
             InitializeComponent();
         }
+
+        private void thoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

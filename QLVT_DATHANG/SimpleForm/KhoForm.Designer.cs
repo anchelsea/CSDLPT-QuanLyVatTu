@@ -114,43 +114,43 @@
             mAKHOLabel.AutoSize = true;
             mAKHOLabel.Location = new System.Drawing.Point(753, 81);
             mAKHOLabel.Name = "mAKHOLabel";
-            mAKHOLabel.Size = new System.Drawing.Size(50, 14);
+            mAKHOLabel.Size = new System.Drawing.Size(61, 18);
             mAKHOLabel.TabIndex = 18;
             mAKHOLabel.Text = "Mã kho:";
             // 
             // mANVLabel
             // 
             mANVLabel.AutoSize = true;
-            mANVLabel.Location = new System.Drawing.Point(753, 45);
+            mANVLabel.Location = new System.Drawing.Point(753, 35);
             mANVLabel.Name = "mANVLabel";
-            mANVLabel.Size = new System.Drawing.Size(83, 14);
+            mANVLabel.Size = new System.Drawing.Size(101, 18);
             mANVLabel.TabIndex = 19;
             mANVLabel.Text = "Mã nhân viên:";
             // 
             // mACNLabel
             // 
             mACNLabel.AutoSize = true;
-            mACNLabel.Location = new System.Drawing.Point(978, 48);
+            mACNLabel.Location = new System.Drawing.Point(753, 127);
             mACNLabel.Name = "mACNLabel";
-            mACNLabel.Size = new System.Drawing.Size(83, 14);
+            mACNLabel.Size = new System.Drawing.Size(100, 18);
             mACNLabel.TabIndex = 20;
             mACNLabel.Text = "Mã chi nhánh:";
             // 
             // tENKHOLabel
             // 
             tENKHOLabel.AutoSize = true;
-            tENKHOLabel.Location = new System.Drawing.Point(978, 84);
+            tENKHOLabel.Location = new System.Drawing.Point(978, 77);
             tENKHOLabel.Name = "tENKHOLabel";
-            tENKHOLabel.Size = new System.Drawing.Size(57, 14);
+            tENKHOLabel.Size = new System.Drawing.Size(67, 18);
             tENKHOLabel.TabIndex = 21;
             tENKHOLabel.Text = "Tên kho:";
             // 
             // dIACHILabel
             // 
             dIACHILabel.AutoSize = true;
-            dIACHILabel.Location = new System.Drawing.Point(753, 114);
+            dIACHILabel.Location = new System.Drawing.Point(978, 127);
             dIACHILabel.Name = "dIACHILabel";
-            dIACHILabel.Size = new System.Drawing.Size(46, 14);
+            dIACHILabel.Size = new System.Drawing.Size(55, 18);
             dIACHILabel.TabIndex = 22;
             dIACHILabel.Text = "Địa chỉ:";
             // 
@@ -158,7 +158,7 @@
             // 
             this.barButtonItem8.Caption = "Thêm";
             this.barButtonItem8.Id = 0;
-            this.barButtonItem8.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.plus;
+            this.barButtonItem8.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem8.ImageOptions.Image")));
             this.barButtonItem8.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barButtonItem8.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem8.Name = "barButtonItem8";
@@ -271,7 +271,7 @@
             // 
             this.btnThem.Caption = "Thêm";
             this.btnThem.Id = 7;
-            this.btnThem.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.plus1;
+            this.btnThem.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnThem.ImageOptions.Image")));
             this.btnThem.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.ItemAppearance.Hovered.Options.UseFont = true;
             this.btnThem.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -284,19 +284,20 @@
             // 
             this.btnXoa.Caption = "Xóa";
             this.btnXoa.Id = 2;
-            this.btnXoa.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.remove;
+            this.btnXoa.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.ImageOptions.Image")));
             this.btnXoa.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.ItemAppearance.Hovered.Options.UseFont = true;
             this.btnXoa.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.ItemAppearance.Normal.Options.UseFont = true;
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.btnXoa.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnXoa_ItemClick);
             // 
             // btnLuu
             // 
             this.btnLuu.Caption = "Lưu";
             this.btnLuu.Id = 3;
-            this.btnLuu.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.diskette;
+            this.btnLuu.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnLuu.ImageOptions.Image")));
             this.btnLuu.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuu.ItemAppearance.Hovered.Options.UseFont = true;
             this.btnLuu.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -309,7 +310,7 @@
             // 
             this.btnRefresh.Caption = "Làm mới";
             this.btnRefresh.Id = 5;
-            this.btnRefresh.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.refresh;
+            this.btnRefresh.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnRefresh.ImageOptions.Image")));
             this.btnRefresh.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRefresh.ItemAppearance.Hovered.Options.UseFont = true;
             this.btnRefresh.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -322,19 +323,20 @@
             // 
             this.btnUndo.Caption = "Phục hồi";
             this.btnUndo.Id = 4;
-            this.btnUndo.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.undo;
+            this.btnUndo.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnUndo.ImageOptions.Image")));
             this.btnUndo.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUndo.ItemAppearance.Hovered.Options.UseFont = true;
             this.btnUndo.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUndo.ItemAppearance.Normal.Options.UseFont = true;
             this.btnUndo.Name = "btnUndo";
             this.btnUndo.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.btnUndo.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnUndo_ItemClick);
             // 
             // barButtonItem9
             // 
             this.barButtonItem9.Caption = "Thoát";
             this.barButtonItem9.Id = 6;
-            this.barButtonItem9.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.next;
+            this.barButtonItem9.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem9.ImageOptions.Image")));
             this.barButtonItem9.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barButtonItem9.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem9.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -393,7 +395,7 @@
             // 
             this.barButtonItem3.Caption = "Xóa";
             this.barButtonItem3.Id = 1;
-            this.barButtonItem3.ImageOptions.Image = global::QLVT_DATHANG.Properties.Resources.remove;
+            this.barButtonItem3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.Image")));
             this.barButtonItem3.Name = "barButtonItem3";
             this.barButtonItem3.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             this.barButtonItem3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem3_ItemClick);
@@ -479,7 +481,7 @@
             // pbThongBao
             // 
             this.pbThongBao.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.pbThongBao.Image = global::QLVT_DATHANG.Properties.Resources.notification;
+            this.pbThongBao.Image = ((System.Drawing.Image)(resources.GetObject("pbThongBao.Image")));
             this.pbThongBao.Location = new System.Drawing.Point(68, 6);
             this.pbThongBao.Name = "pbThongBao";
             this.pbThongBao.Size = new System.Drawing.Size(32, 32);
@@ -519,8 +521,8 @@
             this.gbInfor.Controls.Add(this.mAKHOTextEdit);
             this.gbInfor.Controls.Add(this.pictureBox10);
             this.gbInfor.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gbInfor.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbInfor.Location = new System.Drawing.Point(0, 300);
+            this.gbInfor.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbInfor.Location = new System.Drawing.Point(0, 380);
             this.gbInfor.Name = "gbInfor";
             this.gbInfor.Size = new System.Drawing.Size(1221, 170);
             this.gbInfor.TabIndex = 19;
@@ -530,9 +532,10 @@
             // mANVNumericUpDown
             // 
             this.mANVNumericUpDown.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.nhanVienBindingSource, "MANV", true));
-            this.mANVNumericUpDown.Location = new System.Drawing.Point(849, 42);
+            this.mANVNumericUpDown.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mANVNumericUpDown.Location = new System.Drawing.Point(860, 35);
             this.mANVNumericUpDown.Name = "mANVNumericUpDown";
-            this.mANVNumericUpDown.Size = new System.Drawing.Size(100, 22);
+            this.mANVNumericUpDown.Size = new System.Drawing.Size(100, 23);
             this.mANVNumericUpDown.TabIndex = 24;
             // 
             // nhanVienBindingSource
@@ -543,47 +546,54 @@
             // dIACHITextEdit
             // 
             this.dIACHITextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.khoBindingSource, "DIACHI", true));
-            this.dIACHITextEdit.Location = new System.Drawing.Point(849, 112);
+            this.dIACHITextEdit.Location = new System.Drawing.Point(1040, 124);
             this.dIACHITextEdit.MenuManager = this.barManager1;
             this.dIACHITextEdit.Name = "dIACHITextEdit";
-            this.dIACHITextEdit.Size = new System.Drawing.Size(331, 20);
+            this.dIACHITextEdit.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dIACHITextEdit.Properties.Appearance.Options.UseFont = true;
+            this.dIACHITextEdit.Size = new System.Drawing.Size(190, 22);
             this.dIACHITextEdit.TabIndex = 23;
             // 
             // tENKHOTextEdit
             // 
             this.tENKHOTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.khoBindingSource, "TENKHO", true));
-            this.tENKHOTextEdit.Location = new System.Drawing.Point(1080, 78);
+            this.tENKHOTextEdit.Location = new System.Drawing.Point(1041, 75);
             this.tENKHOTextEdit.MenuManager = this.barManager1;
             this.tENKHOTextEdit.Name = "tENKHOTextEdit";
-            this.tENKHOTextEdit.Size = new System.Drawing.Size(100, 20);
+            this.tENKHOTextEdit.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tENKHOTextEdit.Properties.Appearance.Options.UseFont = true;
+            this.tENKHOTextEdit.Size = new System.Drawing.Size(190, 22);
             this.tENKHOTextEdit.TabIndex = 22;
             // 
             // mACNTextEdit
             // 
             this.mACNTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.khoBindingSource, "MACN", true));
             this.mACNTextEdit.Enabled = false;
-            this.mACNTextEdit.Location = new System.Drawing.Point(1080, 42);
+            this.mACNTextEdit.Location = new System.Drawing.Point(860, 128);
             this.mACNTextEdit.MenuManager = this.barManager1;
             this.mACNTextEdit.Name = "mACNTextEdit";
-            this.mACNTextEdit.Size = new System.Drawing.Size(100, 20);
+            this.mACNTextEdit.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mACNTextEdit.Properties.Appearance.Options.UseFont = true;
+            this.mACNTextEdit.Size = new System.Drawing.Size(100, 22);
             this.mACNTextEdit.TabIndex = 21;
-            this.mACNTextEdit.EditValueChanged += new System.EventHandler(this.mACNTextEdit_EditValueChanged);
             // 
             // mAKHOTextEdit
             // 
             this.mAKHOTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.khoBindingSource, "MAKHO", true));
-            this.mAKHOTextEdit.Location = new System.Drawing.Point(849, 78);
+            this.mAKHOTextEdit.Location = new System.Drawing.Point(860, 81);
             this.mAKHOTextEdit.MenuManager = this.barManager1;
             this.mAKHOTextEdit.Name = "mAKHOTextEdit";
-            this.mAKHOTextEdit.Size = new System.Drawing.Size(100, 20);
+            this.mAKHOTextEdit.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mAKHOTextEdit.Properties.Appearance.Options.UseFont = true;
+            this.mAKHOTextEdit.Size = new System.Drawing.Size(100, 22);
             this.mAKHOTextEdit.TabIndex = 19;
             // 
             // pictureBox10
             // 
-            this.pictureBox10.Image = global::QLVT_DATHANG.Properties.Resources.warehouse__3_;
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
             this.pictureBox10.Location = new System.Drawing.Point(576, 32);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox10.Size = new System.Drawing.Size(125, 125);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 18;
             this.pictureBox10.TabStop = false;
@@ -600,7 +610,7 @@
             this.khoGridControl.MainView = this.gridView1;
             this.khoGridControl.MenuManager = this.barManager1;
             this.khoGridControl.Name = "khoGridControl";
-            this.khoGridControl.Size = new System.Drawing.Size(1221, 220);
+            this.khoGridControl.Size = new System.Drawing.Size(1221, 300);
             this.khoGridControl.TabIndex = 27;
             this.khoGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -609,6 +619,8 @@
             // 
             this.gridView1.Appearance.FocusedRow.BackColor = System.Drawing.Color.Lime;
             this.gridView1.Appearance.FocusedRow.Options.UseBackColor = true;
+            this.gridView1.Appearance.Row.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridView1.Appearance.Row.Options.UseFont = true;
             this.gridView1.Appearance.Row.Options.UseTextOptions = true;
             this.gridView1.Appearance.Row.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {

@@ -34,5 +34,10 @@ namespace QLVT_DATHANG.SubForm
             this.vattuTableAdapter.Fill(this.qLVT_DATHANGDataSet.Vattu);
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

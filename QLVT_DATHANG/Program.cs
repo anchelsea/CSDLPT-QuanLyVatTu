@@ -34,7 +34,7 @@ namespace QLVT_DATHANG
         public static String mHoten = "";
         public static string group = "";    //Để khi vào các form con biết đang ở quyền nào
 
-
+      
        
 
         public static bool flagCloseFormNV;
@@ -47,7 +47,7 @@ namespace QLVT_DATHANG
 
 
 
-        public static frmMain mainForm;
+        public static frmMain frmMain;
         public static NhanVienForm nhanVienForm;
         public static VatTuForm vatTuForm;
         public static KhoForm khoForm;
@@ -56,6 +56,12 @@ namespace QLVT_DATHANG
 
         public static SubForm.NVTrungIncurredForm nVTrungIncurredForm;
         public static SubForm.ChuyenChiNhanhSubForm chuyenChiNhanhSubForm;
+        public static SubForm.DDHSubForm dDHSubForm;
+        public static SubForm.CTDDHSubForm cTDDHSubForm;
+        public static SubForm.PhieuNhapSubForm phieuNhapSubForm;
+        public static SubForm.CTPNSubForm cTPNSubForm;
+        public static SubForm.PhieuXuatSubForm phieuXuatSubForm;
+        public static SubForm.CTPXSubForm CTPXSubForm;
 
 
 

@@ -80,6 +80,11 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="QLVT_DATHANGDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -193,14 +198,9 @@
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="SimpleForm\KhoForm.resx">
       <DependentUpon>KhoForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -272,6 +272,14 @@
   <ItemGroup>
     <Content Include="Properties\account.png" />
     <Content Include="Properties\lock.png" />
+    <None Include="Resources\export %281%29.png" />
+    <None Include="Resources\inventory22.png" />
+    <None Include="Resources\packing-list3.png" />
+    <None Include="Resources\packing-list2.png" />
+    <None Include="Resources\packing-list1.png" />
+    <None Include="Resources\invoice.png" />
+    <None Include="Resources\export.png" />
+    <None Include="Resources\packing-list.png" />
     <None Include="QLVT_DATHANGDataSet_NVTrung.xsc">
       <DependentUpon>QLVT_DATHANGDataSet_NVTrung.xsd</DependentUpon>
     </None>
