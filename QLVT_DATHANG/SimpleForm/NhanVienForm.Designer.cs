@@ -1578,6 +1578,7 @@
             this.gvCTPN.OptionsView.ShowGroupPanel = false;
             this.gvCTPN.OptionsView.ShowViewCaption = true;
             this.gvCTPN.ViewCaption = "CHI TIẾT PHIẾU NHẬP";
+            this.gvCTPN.PopupMenuShowing += new DevExpress.XtraGrid.Views.Grid.PopupMenuShowingEventHandler(this.gvCTPN_PopupMenuShowing);
             // 
             // colMAPN1
             // 
@@ -1885,6 +1886,7 @@
             this.gvCTPX.OptionsView.ShowGroupPanel = false;
             this.gvCTPX.OptionsView.ShowViewCaption = true;
             this.gvCTPX.ViewCaption = "CHI TIẾT PHIẾU XUẤT";
+            this.gvCTPX.PopupMenuShowing += new DevExpress.XtraGrid.Views.Grid.PopupMenuShowingEventHandler(this.gvCTPX_PopupMenuShowing);
             // 
             // colMAPX1
             // 
@@ -1980,6 +1982,7 @@
             this.gvPX.OptionsView.ShowGroupPanel = false;
             this.gvPX.OptionsView.ShowViewCaption = true;
             this.gvPX.ViewCaption = "PHIẾU XUẤT";
+            this.gvPX.PopupMenuShowing += new DevExpress.XtraGrid.Views.Grid.PopupMenuShowingEventHandler(this.gvPhieuXuat_PopupMenuShowing);
             // 
             // colMAPX
             // 

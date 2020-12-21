@@ -32,5 +32,11 @@ namespace QLVT_DATHANG.SubForm
             this.khoTableAdapter.Fill(this.qLVT_DATHANGDataSet.Kho);
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Program.nhanVienForm.Enabled = true;
+        }
     }
 }

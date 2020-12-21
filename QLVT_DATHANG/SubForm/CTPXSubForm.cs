@@ -38,6 +38,7 @@ namespace QLVT_DATHANG.SubForm
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+            Program.nhanVienForm.Enabled = true;
         }
     }
 }

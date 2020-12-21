@@ -479,13 +479,13 @@ namespace QLVT_DATHANG
                 if (e.MenuType == GridMenuType.Row)
                 {
                     GridViewMenu menu = e.Menu;
-                    DXMenuItem menuAddDDH = createMenuItem("Thêm DDH", Properties.Resources.plus);
+                    DXMenuItem menuAddDDH = createMenuItem("Thêm đơn đặt hàng", Properties.Resources.plus);
                     menuAddDDH.Click += new EventHandler(menuAddDDH_Click);
                     menu.Items.Add(menuAddDDH);
 
                     if (maNVLapDDH == Program.manv)
                     {
-                        DXMenuItem menuAddCTDDH = createMenuItem("Thêm chi tiết DDH", Properties.Resources.inventory__3_);
+                        DXMenuItem menuAddCTDDH = createMenuItem("Thêm chi tiết ĐĐH", Properties.Resources.inventory__3_);
                         menuAddCTDDH.Click += new EventHandler(menuAddChiTietDDH_Click);
                         menu.Items.Add(menuAddCTDDH);
                     }
@@ -516,7 +516,7 @@ namespace QLVT_DATHANG
                 if (e.MenuType == GridMenuType.Row && kiemTraCTDDHCuaNV())
                 {
                     GridViewMenu menu = e.Menu;
-                    DXMenuItem menuAddChiTietDDH = createMenuItem("Thêm chi tiết DDH", Properties.Resources.plus);
+                    DXMenuItem menuAddChiTietDDH = createMenuItem("Thêm chi tiết ĐĐH", Properties.Resources.plus);
                     menuAddChiTietDDH.Click += new EventHandler(menuAddChiTietDDH_Click);
                     menu.Items.Add(menuAddChiTietDDH);
                 }
@@ -622,6 +622,146 @@ namespace QLVT_DATHANG
             Program.nhanVienForm.Enabled = false;
         }
 
-    
+        //CT PN
+        private void gvCTPN_PopupMenuShowing(object sender, DevExpress.XtraGrid.Views.Grid.PopupMenuShowingEventArgs e)
+        {
+            if (Program.group == "CHINHANH" || Program.group == "USER")
+            {
+                int maNVLapPN = 0;
+                if (gvPN.GetRowCellValue(phieuNhapBindingSource.Position, "MANV") != null)
+                {
+                    maNVLapPN = int.Parse(gvPN.GetRowCellValue(phieuNhapBindingSource.Position, "MANV").ToString().Trim());
+                }
+                if (e.MenuType == GridMenuType.Row && maNVLapPN == Program.manv)
+                {
+                    GridViewMenu menu = e.Menu;
+                    DXMenuItem menuAddCTPN = createMenuItem("Thêm chi tiết Phiếu Nhập", Properties.Resources.plus);
+                    menuAddCTPN.Click += new EventHandler(menuAddCTPN_Click);
+                    menu.Items.Add(menuAddCTPN);
+                }
+            }
+        }
+
+
+        private void smiAddCTPN_Click(object sender, EventArgs e)
+        {
+            if (cTDDHBindingSource.Count == 0)
+            {
+                MessageBox.Show("Đơn Đặt hàng của Phiếu Nhập này chưa có Chi Tiết Đơn Đặt Hàng!", "Thông báo",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            Program.cTPNSubForm = new SubForm.CTPNSubForm();
+            Program.cTPNSubForm.Show();
+            Program.nhanVienForm.Enabled = false;
+        }
+
+        //Phieu Xuat
+
+        private void gvPhieuXuat_PopupMenuShowing(object sender, DevExpress.XtraGrid.Views.Grid.PopupMenuShowingEventArgs e)
+        {
+            if (Program.group == "CHINHANH" || Program.group == "USER")
+            {
+                int maNVLapPX = 0;
+                if (gvPX.GetRowCellValue(phieuXuatBindingSource.Position, "MANV") != null)
+                {
+                    maNVLapPX = int.Parse(gvPX.GetRowCellValue(phieuXuatBindingSource.Position, "MANV").ToString().Trim());
+                }
+                if (e.MenuType == GridMenuType.Row)
+                {
+                    GridViewMenu menu = e.Menu;
+                    DXMenuItem menuAddPX = createMenuItem("Thêm Phiếu Xuất", Properties.Resources.plus);
+                    menuAddPX.Click += new EventHandler(menuAddPX_Click);
+                    menu.Items.Add(menuAddPX);
+
+                    if (maNVLapPX == Program.manv)
+                    {
+                        DXMenuItem menuAddCTPX = createMenuItem("Thêm chi tiết Phiếu Xuất", Properties.Resources.export);
+                        menuAddCTPX.Click += new EventHandler(menuAddCTPX_Click);
+                        menu.Items.Add(menuAddCTPX);
+                    }
+                }
+            }
+        }
+
+
+        private void menuAddPX_Click(object sender, EventArgs e)
+        {
+            Program.phieuXuatSubForm = new SubForm.PhieuXuatSubForm();
+            Program.phieuXuatSubForm.Show();
+            Program.nhanVienForm.Enabled = false;
+            nhanVienBindingSource.Position = nhanVienBindingSource.Find("MANV", Program.manv);
+        }
+        private void smiAddPX_Click(object sender, EventArgs e)
+        {
+            Program.phieuXuatSubForm = new SubForm.PhieuXuatSubForm();
+            Program.phieuXuatSubForm.Show();
+            Program.nhanVienForm.Enabled = false;
+            nhanVienBindingSource.Position = nhanVienBindingSource.Find("MANV", Program.manv);
+        }
+
+        // CHI TIET PHIEU XUAT
+
+        private void gvCTPX_PopupMenuShowing(object sender, DevExpress.XtraGrid.Views.Grid.PopupMenuShowingEventArgs e)
+        {
+            if (Program.group == "CHINHANH" || Program.group == "USER")
+            {
+                int maNVLapPX = 0;
+                if (gvPX.GetRowCellValue(phieuXuatBindingSource.Position, "MANV") != null)
+                {
+                    maNVLapPX = int.Parse(gvPX.GetRowCellValue(phieuXuatBindingSource.Position, "MANV").ToString().Trim());
+                }
+                if (e.MenuType == GridMenuType.Row && maNVLapPX == Program.manv)
+                {
+                    GridViewMenu menu = e.Menu;
+                    DXMenuItem menuAddCTPX = createMenuItem("Thêm chi tiết Phiếu Xuất", Properties.Resources.plus);
+                    menuAddCTPX.Click += new EventHandler(menuAddCTPX_Click);
+                    menu.Items.Add(menuAddCTPX);
+                }
+            }
+        }
+
+        private void menuAddCTPX_Click(object sender, EventArgs e)
+        {
+            Program.CTPXSubForm = new SubForm.CTPXSubForm();
+            Program.CTPXSubForm.Show();
+            Program.nhanVienForm.Enabled = false;
+        }
+        private void smiAddCTPX_Click(object sender, EventArgs e)
+        {
+            Program.CTPXSubForm = new SubForm.CTPXSubForm();
+            Program.CTPXSubForm.Show();
+            Program.nhanVienForm.Enabled = false;
+        }
+
+        //Getter-Setter các DataSet và BindingSource
+        public BindingSource getDatHangBDS()
+        {
+            return this.datHangBindingSource;
+        }
+        public BindingSource getCTDatHangBDS()
+        {
+            return this.cTDDHBindingSource;
+        }
+        public BindingSource getPhieuNhapBDS()
+        {
+            return this.phieuNhapBindingSource;
+        }
+        public BindingSource getCTPhieuNhapBDS()
+        {
+            return this.cTPNBindingSource;
+        }
+        public BindingSource getPhieuXuatBDS()
+        {
+            return this.phieuXuatBindingSource;
+        }
+        public BindingSource getCTPhieuXuatBDS()
+        {
+            return this.cTPXBindingSource;
+        }
+        public QLVT_DATHANGDataSet getDataSet()
+        {
+            return this.qLVT_DATHANGDataSet;
+        }
     }
 }

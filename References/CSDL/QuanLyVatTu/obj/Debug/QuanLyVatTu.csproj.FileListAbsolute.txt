@@ -1,0 +1,663 @@
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\QuanLyVatTu.exe.config
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\QuanLyVatTu.exe
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\QuanLyVatTu.pdb
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.csprojAssemblyReference.cache
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.Properties.Resources.resources
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.csproj.GenerateResource.cache
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.exe.licenses
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.csproj.CoreCompileInputs.cache
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.csproj.CopyComplete
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.exe
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.pdb
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\Google.Protobuf.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\MySql.Data.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\Google.Protobuf.xml
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\MySql.Data.xml
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.FormMain.resources
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.LoginForm.resources
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.FormNhanVien.resources
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.FormVatTu.resources
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.FormKho.resources
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.FormTaoTaiKhoan.resources
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.SubFormNhanVien.resources
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.PopupFormNVTrung.resources
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\huyla\source\repos\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\QuanLyVatTu.exe.config
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\QuanLyVatTu.exe
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\QuanLyVatTu.pdb
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\Google.Protobuf.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\MySql.Data.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\Google.Protobuf.xml
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\MySql.Data.xml
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\obj\Debug\QuanLyVatTu.csprojAssemblyReference.cache
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\obj\Debug\QuanLyVatTu.FormKho.resources
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\obj\Debug\QuanLyVatTu.FormMain.resources
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\obj\Debug\QuanLyVatTu.FormNhanVien.resources
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\obj\Debug\QuanLyVatTu.FormTaoTaiKhoan.resources
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\obj\Debug\QuanLyVatTu.FormVatTu.resources
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\obj\Debug\QuanLyVatTu.LoginForm.resources
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\obj\Debug\QuanLyVatTu.PopupFormNVTrung.resources
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\obj\Debug\QuanLyVatTu.Properties.Resources.resources
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\obj\Debug\QuanLyVatTu.SubFormNhanVien.resources
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\obj\Debug\QuanLyVatTu.csproj.GenerateResource.cache
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\obj\Debug\QuanLyVatTu.exe.licenses
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\obj\Debug\QuanLyVatTu.csproj.CoreCompileInputs.cache
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\obj\Debug\QuanLyVatTu.csproj.CopyComplete
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\obj\Debug\QuanLyVatTu.exe
+C:\Users\huyla\Desktop\Backup-QLVT\QuanLyVatTu\obj\Debug\QuanLyVatTu.pdb
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.csprojAssemblyReference.cache
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.exe
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.pdb
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\QuanLyVatTu.exe.config
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\QuanLyVatTu.exe
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\QuanLyVatTu.pdb
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\Google.Protobuf.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\MySql.Data.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\Google.Protobuf.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\MySql.Data.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.FormKho.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.FormMain.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.FormNhanVien.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.FormTaoTaiKhoan.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.FormVatTu.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.LoginForm.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.Properties.Resources.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.PopupFormNVTrung.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.SubFormNhanVien.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.csproj.GenerateResource.cache
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.exe.licenses
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.csproj.CoreCompileInputs.cache
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.csproj.CopyComplete
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.SubForm.SubFormDDH.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.SubForm.SubFormCTDDH.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.SubForm.SubFormPhieuNhap.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.SubForm.SubFormCTPN.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.SubForm.SubFormPhieuXuat.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.SubForm.SubFormCTPX.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Charts.v17.1.Core.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.PivotGrid.v17.1.Core.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.RichEdit.v17.1.Export.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Utils.v17.1.UI.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraCharts.v17.1.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraGauges.v17.1.Core.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraReports.v17.1.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraReports.v17.1.Extensions.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.DataAccess.v17.1.UI.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraCharts.v17.1.Extensions.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraPivotGrid.v17.1.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Diagram.v17.1.Core.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraDiagram.v17.1.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.PivotGrid.v17.1.Core.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Utils.v17.1.UI.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraCharts.v17.1.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraGauges.v17.1.Core.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraReports.v17.1.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraReports.v17.1.Extensions.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.DataAccess.v17.1.UI.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraPivotGrid.v17.1.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.Diagram.v17.1.Core.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\DevExpress.XtraDiagram.v17.1.xml
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.XtraReports.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.XtraReports.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraReports.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraReports.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\de\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\es\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ja\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\bin\Debug\ru\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.Report.ReportDSNhanVien.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.Report.ReportDSVatTu.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.Report.FormChiTietNhapXuat.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.Report.ReportChitietNhapXuat.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.Report.ReportDDHChuaLapPN.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.Report.ReportHoatDongNhanVien.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.Report.FormHoatDongNhanVien.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.Report.FormTongHopNhapXuat.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.Report.ReportTongHopNhapXuat.resources
+C:\Users\huyla\Desktop\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.Report.Test.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\QuanLyVatTu.exe.config
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\QuanLyVatTu.exe
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\QuanLyVatTu.pdb
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.BonusSkins.v20.1.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.CodeParser.v20.1.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Data.v20.1.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.DataAccess.v20.1.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Office.v20.1.Core.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.RichEdit.v20.1.Export.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Utils.v20.1.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Utils.v20.1.UI.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Xpo.v20.1.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraBars.v20.1.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraReports.v20.1.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\Google.Protobuf.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\MySql.Data.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.DataAccess.v20.1.UI.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraNavBar.v20.1.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraPivotGrid.v20.1.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraCharts.v20.1.Extensions.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Images.v20.1.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraDiagram.v20.1.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Diagram.v20.1.Core.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Data.v20.1.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.DataAccess.v20.1.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Office.v20.1.Core.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Utils.v20.1.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Utils.v20.1.UI.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Xpo.v20.1.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraBars.v20.1.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraReports.v20.1.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\Google.Protobuf.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\MySql.Data.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraRichEdit.v20.1.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.DataAccess.v20.1.UI.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraNavBar.v20.1.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraPivotGrid.v20.1.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.XtraDiagram.v20.1.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\DevExpress.Diagram.v20.1.Core.xml
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.Utils.v20.1.UI.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.Utils.v20.1.UI.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.Utils.v20.1.UI.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.Utils.v20.1.UI.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\de\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\es\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ja\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\bin\Debug\ru\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.csprojAssemblyReference.cache
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.Report.FormChiTietNhapXuat.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.Report.FormHoatDongNhanVien.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.Report.FormTongHopNhapXuat.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.Report.ReportChitietNhapXuat.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.Report.ReportDDHChuaLapPN.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.Report.ReportDSNhanVien.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.Report.ReportDSVatTu.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.Report.ReportHoatDongNhanVien.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.Report.ReportTongHopNhapXuat.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.Report.Test.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.FormKho.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.FormMain.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.FormNhanVien.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.FormTaoTaiKhoan.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.FormVatTu.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.LoginForm.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.Properties.Resources.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.PopupFormNVTrung.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.SubForm.SubFormCTDDH.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.SubForm.SubFormCTPN.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.SubForm.SubFormCTPX.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.SubForm.SubFormDDH.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.SubFormNhanVien.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.SubForm.SubFormPhieuNhap.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.SubForm.SubFormPhieuXuat.resources
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.csproj.GenerateResource.cache
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.exe.licenses
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.csproj.CoreCompileInputs.cache
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.csproj.CopyComplete
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.exe
+D:\HK1\CSDL Phân tán\CSDL\QuanLyVatTu\obj\Debug\QuanLyVatTu.pdb

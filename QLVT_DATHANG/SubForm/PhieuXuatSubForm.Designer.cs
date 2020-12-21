@@ -37,28 +37,58 @@
             this.khoTableAdapter = new QLVT_DATHANG.QLVT_DATHANGDataSetTableAdapters.KhoTableAdapter();
             this.tableAdapterManager = new QLVT_DATHANG.QLVT_DATHANGDataSetTableAdapters.TableAdapterManager();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.tbMaPX = new System.Windows.Forms.TextBox();
+            this.btnOK = new System.Windows.Forms.Button();
+            this.tbMaKho = new System.Windows.Forms.TextBox();
+            this.tbKhachHang = new System.Windows.Forms.TextBox();
             this.khoGridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colMAKHO = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTENKHO = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colDIACHI = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colMACN = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.tbMaPX = new System.Windows.Forms.TextBox();
-            this.btnOK = new System.Windows.Forms.Button();
-            this.tbMaKho = new System.Windows.Forms.TextBox();
-            this.tbKhachHang = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             mAPXLabel = new System.Windows.Forms.Label();
             mAKHOLabel = new System.Windows.Forms.Label();
             hOTENKHLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.qLVT_DATHANGDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.khoBindingSource)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.khoGridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // mAPXLabel
+            // 
+            mAPXLabel.AutoSize = true;
+            mAPXLabel.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            mAPXLabel.Location = new System.Drawing.Point(21, 171);
+            mAPXLabel.Name = "mAPXLabel";
+            mAPXLabel.Size = new System.Drawing.Size(89, 14);
+            mAPXLabel.TabIndex = 13;
+            mAPXLabel.Text = "Mã Phiếu Xuất:";
+            // 
+            // mAKHOLabel
+            // 
+            mAKHOLabel.AutoSize = true;
+            mAKHOLabel.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            mAKHOLabel.Location = new System.Drawing.Point(54, 241);
+            mAKHOLabel.Name = "mAKHOLabel";
+            mAKHOLabel.Size = new System.Drawing.Size(51, 14);
+            mAKHOLabel.TabIndex = 11;
+            mAKHOLabel.Text = "Mã Kho:";
+            // 
+            // hOTENKHLabel
+            // 
+            hOTENKHLabel.AutoSize = true;
+            hOTENKHLabel.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            hOTENKHLabel.Location = new System.Drawing.Point(-3, 206);
+            hOTENKHLabel.Name = "hOTENKHLabel";
+            hOTENKHLabel.Size = new System.Drawing.Size(118, 14);
+            hOTENKHLabel.TabIndex = 9;
+            hOTENKHLabel.Text = "Họ tên Khách Hàng:";
             // 
             // qLVT_DATHANGDataSet
             // 
@@ -107,6 +137,64 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thêm phiếu xuất";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::QLVT_DATHANG.Properties.Resources.export__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(144, 49);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(81, 87);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(210, 285);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(90, 25);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "Thoát";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // tbMaPX
+            // 
+            this.tbMaPX.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbMaPX.Location = new System.Drawing.Point(134, 168);
+            this.tbMaPX.Name = "tbMaPX";
+            this.tbMaPX.Size = new System.Drawing.Size(178, 22);
+            this.tbMaPX.TabIndex = 8;
+            // 
+            // btnOK
+            // 
+            this.btnOK.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnOK.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOK.Location = new System.Drawing.Point(99, 285);
+            this.btnOK.Name = "btnOK";
+            this.btnOK.Size = new System.Drawing.Size(90, 25);
+            this.btnOK.TabIndex = 14;
+            this.btnOK.Text = "OK";
+            this.btnOK.UseVisualStyleBackColor = true;
+            // 
+            // tbMaKho
+            // 
+            this.tbMaKho.Enabled = false;
+            this.tbMaKho.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbMaKho.Location = new System.Drawing.Point(134, 238);
+            this.tbMaKho.Name = "tbMaKho";
+            this.tbMaKho.Size = new System.Drawing.Size(178, 22);
+            this.tbMaKho.TabIndex = 12;
+            // 
+            // tbKhachHang
+            // 
+            this.tbKhachHang.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbKhachHang.Location = new System.Drawing.Point(134, 203);
+            this.tbKhachHang.Name = "tbKhachHang";
+            this.tbKhachHang.Size = new System.Drawing.Size(178, 22);
+            this.tbKhachHang.TabIndex = 10;
             // 
             // khoGridControl
             // 
@@ -202,93 +290,6 @@
             this.colMACN.Visible = true;
             this.colMACN.VisibleIndex = 3;
             // 
-            // mAPXLabel
-            // 
-            mAPXLabel.AutoSize = true;
-            mAPXLabel.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            mAPXLabel.Location = new System.Drawing.Point(21, 171);
-            mAPXLabel.Name = "mAPXLabel";
-            mAPXLabel.Size = new System.Drawing.Size(89, 14);
-            mAPXLabel.TabIndex = 13;
-            mAPXLabel.Text = "Mã Phiếu Xuất:";
-            // 
-            // tbMaPX
-            // 
-            this.tbMaPX.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbMaPX.Location = new System.Drawing.Point(134, 168);
-            this.tbMaPX.Name = "tbMaPX";
-            this.tbMaPX.Size = new System.Drawing.Size(178, 22);
-            this.tbMaPX.TabIndex = 8;
-            // 
-            // btnOK
-            // 
-            this.btnOK.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnOK.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOK.Location = new System.Drawing.Point(99, 285);
-            this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(90, 25);
-            this.btnOK.TabIndex = 14;
-            this.btnOK.Text = "OK";
-            this.btnOK.UseVisualStyleBackColor = true;
-            // 
-            // mAKHOLabel
-            // 
-            mAKHOLabel.AutoSize = true;
-            mAKHOLabel.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            mAKHOLabel.Location = new System.Drawing.Point(54, 241);
-            mAKHOLabel.Name = "mAKHOLabel";
-            mAKHOLabel.Size = new System.Drawing.Size(51, 14);
-            mAKHOLabel.TabIndex = 11;
-            mAKHOLabel.Text = "Mã Kho:";
-            // 
-            // tbMaKho
-            // 
-            this.tbMaKho.Enabled = false;
-            this.tbMaKho.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbMaKho.Location = new System.Drawing.Point(134, 238);
-            this.tbMaKho.Name = "tbMaKho";
-            this.tbMaKho.Size = new System.Drawing.Size(178, 22);
-            this.tbMaKho.TabIndex = 12;
-            // 
-            // hOTENKHLabel
-            // 
-            hOTENKHLabel.AutoSize = true;
-            hOTENKHLabel.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            hOTENKHLabel.Location = new System.Drawing.Point(-3, 206);
-            hOTENKHLabel.Name = "hOTENKHLabel";
-            hOTENKHLabel.Size = new System.Drawing.Size(118, 14);
-            hOTENKHLabel.TabIndex = 9;
-            hOTENKHLabel.Text = "Họ tên Khách Hàng:";
-            // 
-            // tbKhachHang
-            // 
-            this.tbKhachHang.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbKhachHang.Location = new System.Drawing.Point(134, 203);
-            this.tbKhachHang.Name = "tbKhachHang";
-            this.tbKhachHang.Size = new System.Drawing.Size(178, 22);
-            this.tbKhachHang.TabIndex = 10;
-            // 
-            // button1
-            // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(210, 285);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 25);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "Thoát";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::QLVT_DATHANG.Properties.Resources.export__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(144, 49);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(81, 87);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
-            // 
             // PhieuXuatSubForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -305,9 +306,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.khoBindingSource)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.khoGridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

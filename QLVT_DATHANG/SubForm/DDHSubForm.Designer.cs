@@ -44,8 +44,10 @@
             this.tbNCC = new System.Windows.Forms.TextBox();
             this.tbMaDDH = new System.Windows.Forms.TextBox();
             this.btnOk = new System.Windows.Forms.Button();
+            this.datHangBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.datHangTableAdapter = new QLVT_DATHANG.QLVT_DATHANGDataSetTableAdapters.DatHangTableAdapter();
             this.khoGridControl = new DevExpress.XtraGrid.GridControl();
-            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gvKho = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colMAKHO = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTENKHO = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colDIACHI = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -57,8 +59,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.khoBindingSource)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.datHangBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.khoGridControl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvKho)).BeginInit();
             this.SuspendLayout();
             // 
             // mAKHOLabel
@@ -190,36 +193,47 @@
             this.btnOk.TabIndex = 18;
             this.btnOk.Text = "OK";
             this.btnOk.UseVisualStyleBackColor = true;
+            this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
+            // 
+            // datHangBindingSource
+            // 
+            this.datHangBindingSource.DataMember = "DatHang";
+            this.datHangBindingSource.DataSource = this.qLVT_DATHANGDataSet;
+            // 
+            // datHangTableAdapter
+            // 
+            this.datHangTableAdapter.ClearBeforeFill = true;
             // 
             // khoGridControl
             // 
-            this.khoGridControl.DataSource = this.khoBindingSource;
-            this.khoGridControl.Location = new System.Drawing.Point(381, 22);
-            this.khoGridControl.MainView = this.gridView1;
+            this.khoGridControl.DataSource = this.datHangBindingSource;
+            this.khoGridControl.Dock = System.Windows.Forms.DockStyle.Right;
+            this.khoGridControl.Location = new System.Drawing.Point(393, 0);
+            this.khoGridControl.MainView = this.gvKho;
             this.khoGridControl.Name = "khoGridControl";
-            this.khoGridControl.Size = new System.Drawing.Size(473, 366);
-            this.khoGridControl.TabIndex = 28;
+            this.khoGridControl.Size = new System.Drawing.Size(473, 400);
+            this.khoGridControl.TabIndex = 29;
             this.khoGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
+            this.gvKho});
             // 
-            // gridView1
+            // gvKho
             // 
-            this.gridView1.Appearance.FocusedRow.BackColor = System.Drawing.Color.Lime;
-            this.gridView1.Appearance.FocusedRow.Options.UseBackColor = true;
-            this.gridView1.Appearance.Row.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridView1.Appearance.Row.Options.UseFont = true;
-            this.gridView1.Appearance.Row.Options.UseTextOptions = true;
-            this.gridView1.Appearance.Row.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gvKho.Appearance.FocusedRow.BackColor = System.Drawing.Color.Lime;
+            this.gvKho.Appearance.FocusedRow.Options.UseBackColor = true;
+            this.gvKho.Appearance.Row.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gvKho.Appearance.Row.Options.UseFont = true;
+            this.gvKho.Appearance.Row.Options.UseTextOptions = true;
+            this.gvKho.Appearance.Row.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gvKho.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.colMAKHO,
             this.colTENKHO,
             this.colDIACHI,
             this.colMACN});
-            this.gridView1.GridControl = this.khoGridControl;
-            this.gridView1.Name = "gridView1";
-            this.gridView1.OptionsView.ShowGroupPanel = false;
-            this.gridView1.OptionsView.ShowViewCaption = true;
-            this.gridView1.ViewCaption = "DANH SÁCH KHO";
+            this.gvKho.GridControl = this.khoGridControl;
+            this.gvKho.Name = "gvKho";
+            this.gvKho.OptionsView.ShowGroupPanel = false;
+            this.gvKho.OptionsView.ShowViewCaption = true;
+            this.gvKho.ViewCaption = "DANH SÁCH KHO";
             // 
             // colMAKHO
             // 
@@ -297,13 +311,15 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thêm đơn đặt hàng";
             this.Load += new System.EventHandler(this.DDHSubForm_Load);
+            this.Shown += new System.EventHandler(this.SubFormDDH_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.qLVT_DATHANGDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.khoBindingSource)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.datHangBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.khoGridControl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvKho)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -320,12 +336,14 @@
         private System.Windows.Forms.TextBox tbMaDDH;
         private System.Windows.Forms.Button btnOk;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.BindingSource datHangBindingSource;
+        private QLVT_DATHANGDataSetTableAdapters.DatHangTableAdapter datHangTableAdapter;
         private DevExpress.XtraGrid.GridControl khoGridControl;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraGrid.Views.Grid.GridView gvKho;
         private DevExpress.XtraGrid.Columns.GridColumn colMAKHO;
         private DevExpress.XtraGrid.Columns.GridColumn colTENKHO;
         private DevExpress.XtraGrid.Columns.GridColumn colDIACHI;
         private DevExpress.XtraGrid.Columns.GridColumn colMACN;
-        private System.Windows.Forms.Button button1;
     }
 }
